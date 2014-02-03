@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rowsets DateCreated="2010-12-07T13:29:09" EndDate="2010-12-07T13:29:09" StartDate="2010-12-07T12:29:09" Version="12.0.4 Build(120)">
+    <Rowset>
+        <Columns>
+            <Column Description="DateTime" MaxRange="1" MinRange="0" Name="DateTime" SQLDataType="93" SourceColumn="DateTime"/>
+            <Column Description="CylTemp1" MaxRange="200" MinRange="0" Name="MIN_CylTemp1" SQLDataType="8" SourceColumn="CylTemp1"/>
+            <Column Description="CylTemp1" MaxRange="200" MinRange="0" Name="MAX_CylTemp1" SQLDataType="8" SourceColumn="CylTemp1"/>
+            <Column Description="CylTemp1" MaxRange="200" MinRange="0" Name="AVG_CylTemp1" SQLDataType="8" SourceColumn="CylTemp1"/>
+        </Columns>
+        <Row>
+            <DateTime>2010-12-07T13:29:09</DateTime>
+            <MIN_CylTemp1>0</MIN_CylTemp1>
+            <MAX_CylTemp1>140.255201535155</MAX_CylTemp1>
+            <AVG_CylTemp1>65.783711343522</AVG_CylTemp1>
+        </Row>
+    </Rowset>
+    <Rowset>
+        <Columns>
+            <Column Description="DateTime" MaxRange="1" MinRange="0" Name="DateTime" SQLDataType="93" SourceColumn="DateTime"/>
+            <Column Description="CylTemp2" MaxRange="200" MinRange="0" Name="MIN_CylTemp2" SQLDataType="8" SourceColumn="CylTemp2"/>
+            <Column Description="CylTemp2" MaxRange="200" MinRange="0" Name="MAX_CylTemp2" SQLDataType="8" SourceColumn="CylTemp2"/>
+            <Column Description="CylTemp2" MaxRange="200" MinRange="0" Name="AVG_CylTemp2" SQLDataType="8" SourceColumn="CylTemp2"/>
+        </Columns>
+        <Row>
+            <DateTime>2010-12-07T13:29:09</DateTime>
+            <MIN_CylTemp2>0</MIN_CylTemp2>
+            <MAX_CylTemp2>171.780374428865</MAX_CylTemp2>
+            <AVG_CylTemp2>83.994636662206</AVG_CylTemp2>
+        </Row>
+    </Rowset>
+    <Rowset>
+        <Columns>
+            <Column Description="DateTime" MaxRange="1" MinRange="0" Name="DateTime" SQLDataType="93" SourceColumn="DateTime"/>
+            <Column Description="CylTemp3" MaxRange="200" MinRange="0" Name="MIN_CylTemp3" SQLDataType="8" SourceColumn="CylTemp3"/>
+            <Column Description="CylTemp3" MaxRange="200" MinRange="0" Name="MAX_CylTemp3" SQLDataType="8" SourceColumn="CylTemp3"/>
+            <Column Description="CylTemp3" MaxRange="200" MinRange="0" Name="AVG_CylTemp3" SQLDataType="8" SourceColumn="CylTemp3"/>
+        </Columns>
+        <Row>
+            <DateTime>2010-12-07T13:29:09</DateTime>
+            <MIN_CylTemp3>0</MIN_CylTemp3>
+            <MAX_CylTemp3>200</MAX_CylTemp3>
+            <AVG_CylTemp3>101.229388906706</AVG_CylTemp3>
+        </Row>
+    </Rowset>
+    <Rowset>
+        <Columns>
+            <Column Description="DateTime" MaxRange="1" MinRange="0" Name="DateTime" SQLDataType="93" SourceColumn="DateTime"/>
+            <Column Description="CylTemp4" MaxRange="200" MinRange="0" Name="MIN_CylTemp4" SQLDataType="8" SourceColumn="CylTemp4"/>
+            <Column Description="CylTemp4" MaxRange="200" MinRange="0" Name="MAX_CylTemp4" SQLDataType="8" SourceColumn="CylTemp4"/>
+            <Column Description="CylTemp4" MaxRange="200" MinRange="0" Name="AVG_CylTemp4" SQLDataType="8" SourceColumn="CylTemp4"/>
+        </Columns>
+        <Row>
+            <DateTime>2010-12-07T13:29:09</DateTime>
+            <MIN_CylTemp4>0</MIN_CylTemp4>
+            <MAX_CylTemp4>146.145784934178</MAX_CylTemp4>
+            <AVG_CylTemp4>61.266629917637</AVG_CylTemp4>
+        </Row>
+    </Rowset>
+</Rowsets>

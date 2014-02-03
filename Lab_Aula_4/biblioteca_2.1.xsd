@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="uri:Rowsets-MII" xmlns:r="uri:Rowsets-MII">
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="r:pessoas"/>
+        <xs:element ref="r:livros"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pessoas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="r:pessoa"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="livros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="r:livro"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pessoa">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="r:nome">
+          <xs:attributeGroup ref="r:attlist.pessoa"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.pessoa">
+    <xs:attribute name="tipo" default="autor">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="autor"/>
+          <xs:enumeration value="tradutor"/>
+          <xs:enumeration value="editor"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+  </xs:attributeGroup>
+  <xs:complexType name="nome">
+    <xs:sequence>
+      <xs:element ref="r:nome"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="nome" type="xs:string"/>
+  <xs:element name="livro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="r:titulo"/>
+        <xs:element ref="r:idioma"/>
+        <xs:element maxOccurs="unbounded" ref="r:assunto"/>
+        <xs:element ref="r:descricao"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="r:attlist.livro"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.livro">
+    <xs:attribute name="numero" use="required" type="xs:NMTOKEN"/>
+    <xs:attribute name="data" use="required" type="xs:NMTOKEN"/>
+    <xs:attribute name="id" use="required" type="xs:ID"/>
+    <xs:attribute name="autorRef" use="required" type="xs:IDREFS"/>
+  </xs:attributeGroup>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="idioma">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="r:attlist.idioma"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.idioma">
+    <xs:attribute name="codigo" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="pt"/>
+          <xs:enumeration value="en"/>
+          <xs:enumeration value="de"/>
+          <xs:enumeration value="fr"/>
+          <xs:enumeration value="es"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="assunto">
+    <xs:complexType mixed="true">
+      <xs:attributeGroup ref="r:attlist.assunto"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="attlist.assunto">
+    <xs:attribute name="dewey" use="required" type="xs:NMTOKEN"/>
+  </xs:attributeGroup>
+  <xs:element name="termo" type="xs:string"/>
+  <xs:element name="sinopse" type="xs:string"/>
+  <xs:element name="descricao">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="r:termo"/>
+        <xs:element ref="r:sinopse"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

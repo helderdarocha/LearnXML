@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orbita SYSTEM "orbita.dtd" >
+<orbita raioMedUA="0.723">
+    <planeta id="p2" nome="Venus" diametrokm="12104" perielioUA="0.718" afelioUA="0.728" periodoOrbitalD="224.7" periodoRotacaoSideralH="-243" inclinacaoAxial="177.3" massaKg="4.867e24">
+        <imagem href="venus.jpg" />
+    </planeta>
+</orbita>

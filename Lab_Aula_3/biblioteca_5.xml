@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca_5.dtd" [
+    
+]>
+
+<biblioteca logotipo="logo"> <!-- Entidade geral externa nao processada -->
+    &pessoas;                <!-- Entidade geral externa processada -->
+    &livros;
+</biblioteca>

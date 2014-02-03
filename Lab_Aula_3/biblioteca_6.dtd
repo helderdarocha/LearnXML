@@ -1,0 +1,14 @@
+<!ENTITY % incluir.mod.pessoas "INCLUDE" >
+<!ENTITY % incluir.mod.livros  "INCLUDE" >
+
+<![%incluir.mod.pessoas;[ 
+    <!ENTITY % mod.pessoas SYSTEM "pessoas_2.dtd">
+    %mod.pessoas;
+]]>
+
+<![%incluir.mod.livros;[ 
+    <!ENTITY % mod.livros  SYSTEM "livros_2.dtd">
+    %mod.livros;
+]]>
+
+<!ELEMENT biblioteca (pessoas, livros) >

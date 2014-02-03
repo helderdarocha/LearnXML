@@ -1,0 +1,29 @@
+0. Fundir as informações contidas no tag <news> de cada arquivo
+   listado em docs.xml
+   - analisar o conteudo de docs.xml
+   - analisar o conteudo de cada 1.xml, 2.xml, etc.
+
+1. Escreva uma folha de estilos para fundir os arquivos 1.xml a 4.xml
+   e gerar dois arquivos resultado da forma abaixo:
+
+<!-- publicados.html -->
+<table border=1>
+  <tr><td>Noticia 2</td></tr>
+  <tr><td>Noticia 4</td></tr>
+</table>
+
+<!-- armazenados.xml -->
+<page>
+  <folder>Noticia 1</folder>
+  <folder>Noticia 3</folder>
+</page>
+
+Dicas: 
+- use <xsl:document> (pesquise na documentação)
+  para gerar documentos resultado.
+- use a função document() para carregar múltiplos
+  arquivos.
+
+Veja exemplos em
+- curso_xsl\res\kay_ch4\document (divisao de arquivos)
+- Z:\curso_xsl\res\curso3cursos.xsl (fusão de arquivos)

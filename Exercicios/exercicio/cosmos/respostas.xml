@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<quiz id="iadp-xml-2002">
+    <description>Respostas das questões de múltipla escolha propostas 
+    como parte da avaliação do curso de XML (projeto B)</description>
+    <student>
+        <name><!-- Coloque aqui seu nome --></name>
+        <email><!-- Coloque aqui seu email --></email>
+    </student>
+    <!-- Coloque, entre os tags <quest> e </quest> apenas a letra correta de cada questão 
+         em maiúsculo ou minúsculo (ex: <quest number="1">a</quest>) -->
+    <answers>
+        <quest number="1"> </quest>
+        <quest number="2"> </quest>
+        <quest number="3"> </quest>
+        <quest number="4"> </quest>
+        <quest number="5"> </quest>
+        <quest number="6"> </quest>
+        <quest number="7"> </quest>
+        <quest number="8"> </quest>
+        <quest number="9"> </quest>
+        <quest number="10"> </quest>
+    </answers>
+</quiz>

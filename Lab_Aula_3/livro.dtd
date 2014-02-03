@@ -1,0 +1,19 @@
+<!ELEMENT livro     (titulo, idioma, autor+, assunto+, descricao) >
+<!ATTLIST livro numero CDATA #IMPLIED 
+                data   CDATA #IMPLIED >
+
+<!ELEMENT titulo    (#PCDATA) >
+
+<!ELEMENT idioma    (#PCDATA) >
+<!ATTLIST idioma codigo CDATA #IMPLIED >
+
+<!ELEMENT autor     (#PCDATA) >
+
+<!ELEMENT assunto   (#PCDATA) >
+<!ATTLIST assunto dewey CDATA #IMPLIED >
+
+<!ELEMENT termo     (#PCDATA) >
+
+<!ELEMENT sinopse   (#PCDATA) >
+
+<!ELEMENT descricao (#PCDATA | termo | sinopse)* >

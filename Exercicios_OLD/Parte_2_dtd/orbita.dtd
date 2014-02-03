@@ -1,0 +1,77 @@
+<!ELEMENT orbita (planeta?,planeta-anao*,(objeto*|asteroide*))>
+<!ATTLIST orbita
+  nome              CDATA   #IMPLIED
+  raioMedUA         NMTOKEN #REQUIRED>
+
+<!ELEMENT planeta (imagem*,satelite*)>
+<!ATTLIST planeta
+  categoria         CDATA   #IMPLIED
+  afelioUA          NMTOKEN #REQUIRED
+  anoDescobrimento  NMTOKEN #IMPLIED
+  descobertoPor     CDATA   #IMPLIED
+  diametrokm        NMTOKEN #REQUIRED
+  id                NMTOKEN #REQUIRED
+  inclinacaoAxial   NMTOKEN #REQUIRED
+  massaKg           NMTOKEN #REQUIRED
+  nome              CDATA   #REQUIRED
+  perielioUA        NMTOKEN #REQUIRED
+  periodoOrbitalD   NMTOKEN #REQUIRED
+  periodoRotacaoSideralH NMTOKEN #REQUIRED>
+
+<!ELEMENT planeta-anao (imagem*,satelite*)>
+<!ATTLIST planeta-anao
+  categoria         CDATA   #IMPLIED
+  afelioUA          NMTOKEN #REQUIRED
+  anoDescobrimento  NMTOKEN #IMPLIED
+  descobertoPor     CDATA   #IMPLIED
+  diametrokm        NMTOKEN #REQUIRED
+  id                NMTOKEN #REQUIRED
+  inclinacaoAxial   NMTOKEN #IMPLIED
+  massaKg           NMTOKEN #REQUIRED
+  nome              CDATA   #REQUIRED
+  perielioUA        NMTOKEN #REQUIRED
+  periodoOrbitalD   NMTOKEN #REQUIRED>
+
+<!ELEMENT objeto (imagem*,satelite*)>
+<!ATTLIST objeto
+  categoria         CDATA   #IMPLIED
+  afelioUA          NMTOKEN #REQUIRED
+  anoDescobrimento  NMTOKEN #REQUIRED
+  descobertoPor     CDATA   #REQUIRED
+  diametrokm        NMTOKEN #REQUIRED
+  id                NMTOKEN #REQUIRED
+  massaKg           NMTOKEN #IMPLIED
+  nome              CDATA   #REQUIRED
+  perielioUA        NMTOKEN #REQUIRED
+  periodoOrbitalD   NMTOKEN #REQUIRED>
+
+<!ELEMENT asteroide (imagem*,satelite*)>
+<!ATTLIST asteroide
+  categoria         CDATA   #IMPLIED
+  afelioUA          NMTOKEN #REQUIRED
+  anoDescobrimento  NMTOKEN #IMPLIED
+  descobertoPor     CDATA   #IMPLIED
+  diametrokm        NMTOKEN #REQUIRED
+  id                NMTOKEN #REQUIRED
+  massaKg           NMTOKEN #IMPLIED
+  nome              CDATA   #REQUIRED
+  perielioUA        NMTOKEN #REQUIRED
+  periodoOrbitalD   NMTOKEN #REQUIRED>
+
+<!ELEMENT imagem EMPTY>
+<!ATTLIST imagem
+  href              NMTOKEN #REQUIRED
+  height            NMTOKEN #IMPLIED
+  width             NMTOKEN #IMPLIED
+  type              CDATA   #IMPLIED>
+
+<!ELEMENT satelite (imagem*, satelite*)>
+<!ATTLIST satelite
+  categoria         CDATA   #IMPLIED
+  anoDescobrimento  NMTOKEN #IMPLIED
+  descobertoPor     CDATA   #IMPLIED
+  diametrokm        NMTOKEN #REQUIRED
+  id                NMTOKEN #REQUIRED
+  massaKg           NMTOKEN #IMPLIED
+  nome              CDATA   #REQUIRED
+  raioMedOrbitakm   NMTOKEN #REQUIRED>

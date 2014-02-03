@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intervalos>
+    <intervalo segundos="123456" />
+    <intervalo horario="17:25:53" />
+    <intervalo segundos="62753" />
+    <intervalo horario="34:17:36" />
+</intervalos>

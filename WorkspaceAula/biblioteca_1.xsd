@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:complexType name="autorType">
+		<xs:sequence>
+			<xs:element ref="nome"/>
+		</xs:sequence>
+		<xs:attribute name="codigo" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="autoresType">
+		<xs:sequence>
+			<xs:element name="autor" type="autorType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="biblioteca">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="autores" type="autoresType"/>
+				<xs:element name="livros" type="livrosType"/>
+				<xs:element name="editoras" type="editorasType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="editoraType">
+		<xs:attribute name="nome" type="xs:string" use="required"/>
+		<xs:attribute name="codigo" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="editorasType">
+		<xs:sequence>
+			<xs:element name="editora" type="editoraType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="livroType">
+		<xs:sequence>
+			<xs:element ref="titulo"/>
+		</xs:sequence>
+		<xs:attribute name="codigo" type="xs:ID" use="required"/>
+		<xs:attribute name="autores" type="xs:IDREFS" use="required"/>
+		<xs:attribute name="editora" type="xs:IDREF" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="livrosType">
+		<xs:sequence>
+			<xs:element name="livro" type="livroType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="nome" type="xs:string"/>
+	<xs:element name="titulo" type="xs:string"/>
+</xs:schema>

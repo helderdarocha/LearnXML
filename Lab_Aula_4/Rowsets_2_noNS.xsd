@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           elementFormDefault="qualified">
+  
+  <xs:element name="Rowsets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Rowset"/>
+      </xs:sequence>
+      <xs:attribute name="DateCreated" use="required" type="xs:dateTime"/>
+      <xs:attribute name="EndDate" use="required" type="xs:dateTime"/>
+      <xs:attribute name="StartDate" use="required" type="xs:dateTime"/>
+      <xs:attribute name="Version" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Rowset">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Columns"/>
+        <xs:element ref="Row"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Columns">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Column"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Column">
+    <xs:complexType>
+      <xs:attribute name="Description" use="required" type="xs:NCName"/>
+      <xs:attribute name="MaxRange" use="required" type="xs:integer"/>
+      <xs:attribute name="MinRange" use="required" type="xs:integer"/>
+      <xs:attribute name="Name" use="required" type="xs:NCName"/>
+      <xs:attribute name="SQLDataType" use="required" type="xs:integer"/>
+      <xs:attribute name="SourceColumn" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Row">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DateTime"/>
+        <xs:choice>
+          <xs:sequence>
+            <xs:element ref="MIN_CylTemp2"/>
+            <xs:element ref="MAX_CylTemp2"/>
+            <xs:element ref="AVG_CylTemp2"/>
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element ref="MIN_CylTemp4"/>
+            <xs:element ref="MAX_CylTemp4"/>
+            <xs:element ref="AVG_CylTemp4"/>
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element ref="MIN_CylTemp1"/>
+            <xs:element ref="MAX_CylTemp1"/>
+            <xs:element ref="AVG_CylTemp1"/>
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element ref="MIN_CylTemp3"/>
+            <xs:element ref="MAX_CylTemp3"/>
+            <xs:element ref="AVG_CylTemp3"/>
+          </xs:sequence>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DateTime" type="xs:dateTime"/>
+  <xs:element name="MIN_CylTemp2" type="xs:integer"/>
+  <xs:element name="MAX_CylTemp2" type="xs:decimal"/>
+  <xs:element name="AVG_CylTemp2" type="xs:decimal"/>
+  <xs:element name="MIN_CylTemp4" type="xs:integer"/>
+  <xs:element name="MAX_CylTemp4" type="xs:decimal"/>
+  <xs:element name="AVG_CylTemp4" type="xs:decimal"/>
+  <xs:element name="MIN_CylTemp1" type="xs:integer"/>
+  <xs:element name="MAX_CylTemp1" type="xs:decimal"/>
+  <xs:element name="AVG_CylTemp1" type="xs:decimal"/>
+  <xs:element name="MIN_CylTemp3" type="xs:integer"/>
+  <xs:element name="MAX_CylTemp3" type="xs:integer"/>
+  <xs:element name="AVG_CylTemp3" type="xs:decimal"/>
+</xs:schema>

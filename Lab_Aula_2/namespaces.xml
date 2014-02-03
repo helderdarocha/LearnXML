@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamento xmlns="01.234.567/0001-89/empresa"> 
+    <nome xmlns="01.234.567/0001-89/cartoes">Fulano de Tal</nome> 
+    <nome xmlns="01.234.567/0001-89/empresa">Contabilidade</nome> 
+    <endereco xmlns="01.234.567/0001-89/empresa">Rua Projetada, 33</endereco> 
+    <a xmlns="http://www.w3.org/1999/xhtml" href="web.html"> 
+        <strong>link negrito HTML</strong> 
+    </a> 
+    <urgencia xmlns="01.234.567/0001-89/empresa"><numero xmlns="01.234.567/0001-89/cartoes">2313011</numero></urgencia> 
+</departamento>

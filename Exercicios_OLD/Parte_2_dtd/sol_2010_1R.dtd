@@ -1,0 +1,21 @@
+<!ELEMENT sistemaEstelar (centro)>
+<!ATTLIST sistemaEstelar
+  dataAtualizacao NMTOKEN #REQUIRED
+  versao        CDATA   #REQUIRED>
+
+<!ELEMENT centro (estrela)>
+
+<!ELEMENT estrela (imagem)>
+<!ATTLIST estrela
+  cor           NMTOKEN #REQUIRED
+  diametrokm    NMTOKEN #REQUIRED
+  massaKg       NMTOKEN #REQUIRED
+  nome          CDATA   #REQUIRED
+  categoria     CDATA   #IMPLIED>
+
+<!ELEMENT imagem EMPTY>
+<!ATTLIST imagem
+  href          NMTOKEN #REQUIRED
+  height        NMTOKEN #IMPLIED
+  width         NMTOKEN #IMPLIED
+  type          CDATA   #IMPLIED>

@@ -1,0 +1,9 @@
+<q>
+  <x>Para escrever &amp; use &amp;amp; e para escrever um &lt; use &amp;lt;
+     Ou entao use um bloco &lt;![CDATA[ ... ]]&gt;</x>
+  <a><![CDATA[
+     Para escrever & use &amp; e para escrever um < use &lt;
+     Ou entao use um bloco <![CDATA[ ...
+     ]]> ]]&gt;</a>
+
+</q>

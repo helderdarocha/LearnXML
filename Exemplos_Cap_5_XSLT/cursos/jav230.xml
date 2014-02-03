@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<curso assunto="2" fragmento="0" grupo="jav" subgrupo="3"><titulo>Programação concorrente em Java</titulo><carga-horaria>16</carga-horaria><pre-requisito>Curso jav100 ou equivalente</pre-requisito><descricao>Este curso explora os recursos Java para a programação concorrente.</descricao><objetivo></objetivo><topicos><item>Threads em Java</item><item>Técnicas de sincronização</item><item>Wait e Notify</item><item>Agendamento</item><item>Deadlock e como evitá-lo</item><item>Grupos de threads</item></topicos></curso>

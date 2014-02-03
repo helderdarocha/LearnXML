@@ -1,0 +1,13 @@
+Exercicio.
+
+1. Transformar os atributos em elementos.
+
+<animals>
+   <skunk>22</skunk>
+   <rat>3</rat>
+   <bat>9</bat>
+</animals>
+
+2. Criar uma folha de estilos para desfazer o que foi feito em (1).
+
+Dica: usar <xsl:element> e <xsl:attribute>

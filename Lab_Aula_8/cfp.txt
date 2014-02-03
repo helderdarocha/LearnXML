@@ -1,0 +1,74 @@
+
+-------------------------------------
+Inclua cabeçalho aqui - esta página foi gerada a partir de XML. Faça as alteraçõesno documento cfp_to_html.xsl ou xpbrasil_cfp.xml. Altere o estilo em cfp.css.
+-------------------------------------
+CHAMADA DE TRABALHOS
+
+eXtreme Programming Brasil
+
+
+O congresso eXtreme Programming Brasil tem como objetivo reunir a comunidade brasileira de usuários e interessados em metodologias ágeis de desenvolvimento de software para relatar suas experiências, propor soluções, apresentar aplicações práticas e discutir as implicações do uso da metodologia eXtreme Programming e outras metodologias ágeis no processo de desenvolvimento de software.
+
+Convidamos autores, profissionais, academicos e especialistas que utilizam a metodologia XP no seu dia-a-dia, em suas pesquisas e em ambientes de produção para contribuir com palestras , artigos e tutoriais voltados para o público técnico (desenvolvedores) e gerencial (gerentes e clientes de software).
+
+Os trabalhos submetidos devem estar relacionados à metologia XP ou outras metodologias ágeis. Os assuntos de interesse incluem mas não se limitam a:
+
+
+   * Estudos de caso e relatos de experiências com XP e metodologias ágeis
+   * Discussão comparativa de outros processos e metodologias em relação ao XP
+   * Dificuldades na implantação e gerenciamento de XP
+   * Técnicas e ferramentas para implantar práticas do XP
+   * Introdução a práticas específicas do XP (as 12 práticas)
+   * Pair programming: experiências e técnicas
+   * Testes de unidade e de aceitação: soluções práticas, experiencias
+   * Refactoring (refinamento constante e redesign durante o processo de desenvolvimento)
+   * Integração contínua
+   * Certificação de processos XP (CMM, ISO 9001, etc.)
+   * Planejamento e estratégias de viabilização de projetos XP
+   * Experiencias e/ou resultados da introdução de XP e outras metodologias em cursos universitários.
+
+Além dos palestrantes selecionados, o evento também contará com palestrantes internacionais convidados. Até o momento está confirmada a presença de Kent Beck - criador do eXtreme Programming e Scott Ambler .
+
+
+### Formas de apresentação
+
+Os trabalhos submetidos podem ser apresentados em dois formatos: palestra ou tutorial . As palestras têm duração de uma hora. Os tutoriais, com duração de 3 ou de 6 horas, exploram temas que requerem um tempo maior para exposição..
+
+
+### Revista eXtreme Programming Brasil
+
+O eXtreme Programming Brasil também aceitará a submissão de artigos sobre os temas propostos. Os artigos devem ter entre 2 e 6 páginas (incluíndo as ilustrações) em formato A4 e fonte Times Roman 10 pontos. O formato para sumbissão de artigos será divulgado em breve. O evento produzirá uma revista contendo entre 10 e 15 artigos selecionados.
+
+Os artigos são independentes das palestras e tutoriais mas nada impede que um palestrante submeta um artigo e uma palestra ou tutorial. Isto inclusive é estimulado. Palestras e tutoriais técnicos submetidos com artigos terão maiores chances de aprovação.
+
+A revista conterá, além dos artigos selecionados, artigos de autores convidados e espaços destinados à publicidade.
+
+
+### Benefícios aos palestrantes
+
+Palestrantes do eXtreme Programming Brasil terão acesso livre em qualquer palestra do evento e poderão assistir quaisquer tutoriais que não estiverem com sua capacidade esgotada.
+
+
+### Datas importantes
+
+
+   * Data limite para envio de propostas: 30 de setembro de 2002
+   * Pré-seleção: 10 de outubro
+   * Votação pública: 10 a 20 de outubro
+   * Data limite para submissão de artigos: 20 de outubro
+   * Notificação de aceitação: 30 de outubro
+   * Data limite para upload do material para a coordenação técnica: 20 de outubro
+   * Realização do evento: 4 de dezembro
+
+
+### Procedimento para submissão de trabalhos
+
+Em breve será disponibilizado um formulário para facilitar a submissão de trabalhos. Caso você já tenha um trabalho a submeter, voce já pode enviar a proposta. Ela deve estar em formato texto (anexo ou diretamente no corpo do e-mail) e conter Título, resumo de 100 palavras (máximo), assuntos que serão abordados (lista de tópicos - até 100 palavras), público-alvo (gerencial ou técnico), formato (tutorial ou palestra e/ou artigo), seu nome, empresa/instituição e curriculum vitae resumido (até 300 palavras) para email@dominio.com.br .
+
+
+
+-------------------------------------
+
+        Inclua rodapé aqui
+        
+-------------------------------------

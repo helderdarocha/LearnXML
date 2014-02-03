@@ -1,0 +1,2 @@
+<!ELEMENT myMessage (message)>
+<!ELEMENT message (#PCDATA)>

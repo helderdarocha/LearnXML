@@ -1,0 +1,29 @@
+<poem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="passargada poem_ns.xsd"
+      xmlns="passargada">
+    <title>Song</title>
+    <author>Rupert Brooke</author>
+    <msg:myMessage xmlns:msg="msg:mensagens_2002">
+        <msg:message>Mensagem intrusa</msg:message>
+    </msg:myMessage>
+    <stanza>
+        <line>And suddenly the wind comes soft,</line>
+        <line>And Spring is here again;</line>
+        <line>And the hawthorn quickens with buds of green</line>
+        <line>And my heart with buds of pain.</line>
+    </stanza>
+    <stanza>
+        <line>My heart all Winter lay so numb,</line>
+        <line>The earth so dead and frore,</line>
+        <line>That I never thought the Spring would come again</line>
+        <line>Or my heart wake any more.</line>
+    </stanza>
+    <stanza>
+        <line>But Winter's broken and earth has woken,</line>
+        <line>And the small birds cry again;</line>
+        <line>And the hawthorn hedge puts forth its buds,</line>
+        <line>And my heart puts forth its pain.</line>
+    </stanza>
+    <date>1912</date>
+</poem>
+

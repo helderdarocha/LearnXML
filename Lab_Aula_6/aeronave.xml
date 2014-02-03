@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aeronave id="PTGWZ"> 
+    <origem partida="09:15">Rio de Janeiro</origem>
+    <origem partida="22:34">Tokyo</origem>
+    <destino>Sao Paulo</destino>
+</aeronave>

@@ -1,0 +1,26 @@
+<!ELEMENT biblioteca (autores,livros,editoras)>
+<!ELEMENT autores (autor*)>
+
+<!ELEMENT autor (nome)>
+<!ATTLIST autor codigo  ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT livros (livro*)>
+
+<!ELEMENT livro (titulo)>
+<!ATTLIST livro codigo  ID #REQUIRED
+                autores IDREFS #REQUIRED 
+                editora IDREF #REQUIRED>
+                
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT editoras (editora*)>
+
+<!ELEMENT editora EMPTY>
+<!ATTLIST editora nome CDATA #REQUIRED
+                  codigo  ID #REQUIRED>
+
+
+
+
+                
+

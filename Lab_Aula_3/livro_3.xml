@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE livro SYSTEM "livro.dtd">
+<livro numero="3" data="2010-09-20">
+    <titulo>The Great Gatsby</titulo> 
+    <idioma codigo="en" />
+    <autor>F. Scott Fitzgerald</autor>
+    <assunto dewey="813">Ficcao dos Estados Unidos, Seculo XX</assunto>
+    <descricao>Livro mais conhecido do autor, que tem como pano
+        de fundo os <termo>Estados Unidos</termo> no inicio do seculo XX,  
+        na <termo>Era do Jazz</termo>. <sinopse>Coloque aqui uma sinopse deste livro.</sinopse>
+    </descricao>
+</livro>

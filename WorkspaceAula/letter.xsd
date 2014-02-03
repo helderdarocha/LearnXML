@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="carta"
+            xmlns="carta">
+   <xsd:element name="letter" type="letterType" />
+   <xsd:complexType name="letterType">
+    <xsd:sequence>
+      <xsd:element ref="contact" maxOccurs="2" minOccurs="2" />
+      <xsd:element ref="salutation"/>
+      <xsd:element ref="paragraph" maxOccurs="unbounded" minOccurs="1" />
+      <xsd:element ref="closing"/>
+      <xsd:element ref="signature"/>
+    </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:element name="contact" type="contactType" />
+   <xsd:complexType name="contactType">
+    <xsd:sequence>
+      <xsd:element ref="name"/>
+      <xsd:element ref="address1"/>
+      <xsd:element ref="address2"/>
+      <xsd:element ref="city"/>
+      <xsd:element ref="state"/>
+      <xsd:element ref="zip"/>
+      <xsd:element ref="phone"/>
+      <xsd:element ref="flag"/>
+    </xsd:sequence>
+    <xsd:attribute ref="type" use="required"/>
+   </xsd:complexType>
+   
+   <xsd:element name="name" type="xsd:string" />
+   <xsd:element name="address1" type="xsd:string" />
+   <xsd:element name="address2" type="xsd:string" />
+   <xsd:element name="city" type="xsd:string" />
+   <xsd:element name="salutation" type="xsd:string" />
+   <xsd:element name="bold" type="xsd:string" />
+   <xsd:element name="closing" type="xsd:string" />
+   <xsd:element name="signature" type="xsd:string" />
+   
+   <xsd:element name="state">
+     <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="DF"/>
+            <xsd:enumeration value="SP"/>
+            <xsd:enumeration value="RJ"/>
+            <xsd:enumeration value="PA"/>
+            <xsd:enumeration value="BA"/>
+            <xsd:enumeration value="RS"/>
+            <xsd:enumeration value="PB"/>
+            <xsd:enumeration value="CE"/>
+            <xsd:enumeration value="SC"/>
+            <xsd:enumeration value="AM"/>
+        </xsd:restriction>
+     </xsd:simpleType>
+   </xsd:element>
+   
+   <xsd:element name="zip">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:integer">
+            <xsd:length value="5"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+   </xsd:element>
+   
+   <xsd:element name="phone">
+     <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[0-9]{4}-[0-9]{4}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+   </xsd:element>
+   
+   <xsd:element name="flag">
+    <xsd:complexType>
+     <xsd:attribute ref="gender"/>
+    </xsd:complexType>
+   </xsd:element>
+   
+   <xsd:element name="paragraph">
+    <xsd:complexType mixed="true">
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+            <xsd:element ref="bold"/>
+        </xsd:choice>
+    </xsd:complexType>
+   </xsd:element>
+
+   <xsd:attribute name="type">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="to"/>
+            <xsd:enumeration value="from"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+   </xsd:attribute>
+   
+   <xsd:attribute name="gender">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:NMTOKEN">
+            <xsd:pattern value="(M|F)" />
+        </xsd:restriction>
+      </xsd:simpleType>
+   </xsd:attribute>
+</xsd:schema>

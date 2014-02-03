@@ -1,0 +1,6 @@
+<catalogue>
+    <item price="5" category="Silver">this is a silver watch</item>
+    <item price="1" category="gold">this is a ring</item>
+    <item price="1" category="gold">this is a bracelet</item>
+    <item price="0" category="platinum">this is a platinum time piece</item>
+</catalogue>

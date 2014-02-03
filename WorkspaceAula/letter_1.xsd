@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="address1" type="xs:string"/>
+	<xs:element name="address2" type="xs:string"/>
+	<xs:element name="bold" type="xs:string"/>
+	<xs:element name="city" type="xs:string"/>
+	<xs:element name="closing" type="xs:string"/>
+	<xs:element name="contact">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"/>
+				<xs:element ref="address1"/>
+				<xs:element ref="address2"/>
+				<xs:element ref="city"/>
+				<xs:element ref="state"/>
+				<xs:element ref="zip"/>
+				<xs:element ref="phone"/>
+				<xs:element ref="flag"/>
+			</xs:sequence>
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="to"/>
+						<xs:enumeration value="from"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="flag">
+		<xs:complexType>
+			<xs:attribute name="gender" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="F"/>
+						<xs:enumeration value="M"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="letter">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="contact"/>
+				<xs:element ref="contact"/>
+				<xs:element ref="salutation"/>
+				<xs:element ref="paragraph" maxOccurs="unbounded"/>
+				<xs:element ref="closing"/>
+				<xs:element ref="signature"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="name" type="xs:string"/>
+	<xs:element name="paragraph">
+		<xs:complexType mixed="true">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="bold"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="phone" type="xs:string"/>
+	<xs:element name="salutation" type="xs:string"/>
+	<xs:element name="signature" type="xs:string"/>
+	<xs:element name="state" type="xs:string"/>
+	<xs:element name="zip" type="xs:string"/>
+</xs:schema>

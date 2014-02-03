@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oferta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance ofertaElementsAllImport.xsd"
+        xmlns="http://www.empresa.com/pontodevenda" 
+        validade="2010-07-22">
+    <codigo numero="4599" tipo="T"/>
+    <preco>15.2</preco>
+    <itens>14</itens>
+</oferta>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<convidados>
+  <pessoa id="1">
+    <!-- comentario einstein -->
+    <nome>Albert Einstein</nome>
+    <telefone>4332 3323</telefone>
+    <email>einstein@relativo.org</email>
+  </pessoa>
+  <pessoa id="2">
+    <?instrucao um processamento qualquer ?>
+    <nome>Gengis Khan</nome>
+    <telefone>9958 4344</telefone>
+    <email>morte@asia.com</email>
+	Texto qualquer
+  </pessoa>
+  <pessoa id="3">
+    <nome>Bento Carneiro</nome>
+    <telefone>3120 3213</telefone>
+    <email>9323@exvampiros.org</email>
+  </pessoa>
+  <pessoa id="4">
+    <nome>Spock</nome>
+    <telefone>2894 4322</telefone>
+    <email>spock@spock.spock</email>
+  </pessoa>
+    <pessoa id="5">
+    <nome>Osama Bin Laden</nome>
+    <telefone>9348 3231</telefone>
+    <email>vivo@escondidos.org</email>
+  </pessoa>
+</convidados>

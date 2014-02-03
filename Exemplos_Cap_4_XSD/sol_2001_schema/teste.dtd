@@ -1,0 +1,3 @@
+<!ATTLIST atributo tipo ID      #IMPLIED 
+                   ID   NMTOKEN #REQUIRED
+>

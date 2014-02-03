@@ -1,0 +1,7 @@
+<!ELEMENT pessoas (pessoa*) >
+
+<!ELEMENT pessoa (nome) >
+<!ATTLIST pessoa tipo (autor | tradutor | editor) "autor"
+                 id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA) >

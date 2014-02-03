@@ -1,0 +1,35 @@
+<!ELEMENT asteroide EMPTY >
+<!ATTLIST asteroide anoDescobrimento NMTOKEN #REQUIRED >
+<!ATTLIST asteroide diametrokm NMTOKEN #REQUIRED >
+<!ATTLIST asteroide id NMTOKEN #REQUIRED >
+<!ATTLIST asteroide nome ID #REQUIRED >
+
+<!ELEMENT centro ( imagem, estrela ) >
+
+<!ELEMENT estrela EMPTY >
+<!ATTLIST estrela cor NMTOKEN #REQUIRED >
+<!ATTLIST estrela diametrokm NMTOKEN #REQUIRED >
+<!ATTLIST estrela nome NMTOKEN #REQUIRED >
+
+<!ELEMENT imagem EMPTY >
+<!ATTLIST imagem href ID #REQUIRED >
+
+<!ELEMENT orbita ( asteroide | planeta )* >
+<!ATTLIST orbita raioMedUA NMTOKEN #REQUIRED >
+
+<!ELEMENT planeta ( imagem, satelite* ) >
+<!ATTLIST planeta anoDescobrimento NMTOKEN #IMPLIED >
+<!ATTLIST planeta diametrokm NMTOKEN #IMPLIED >
+<!ATTLIST planeta diametrokmkm NMTOKEN #IMPLIED >
+<!ATTLIST planeta id NMTOKEN #REQUIRED >
+<!ATTLIST planeta nome NMTOKEN #REQUIRED >
+
+<!ELEMENT satelite EMPTY >
+<!ATTLIST satelite anoDescobrimento NMTOKEN #IMPLIED >
+<!ATTLIST satelite diametrokm NMTOKEN #REQUIRED >
+<!ATTLIST satelite id NMTOKEN #REQUIRED >
+<!ATTLIST satelite nome CDATA #REQUIRED >
+<!ATTLIST satelite raioMedOrbitakm CDATA #REQUIRED >
+
+<!ELEMENT sistemaEstelar ( centro, orbita+ ) >
+

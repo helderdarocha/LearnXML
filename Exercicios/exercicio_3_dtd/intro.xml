@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+
+<!-- DTDs também podem ser definidos internamente -->
+<!DOCTYPE myMessage [
+    <!ELEMENT myMessage (message)>
+    <!ELEMENT message (#PCDATA) >
+]>
+
+<!-- Outras soluções válidas, porém piores
+<!DOCTYPE myMessage [
+    <!ELEMENT myMessage (message*)>
+    <!ELEMENT message (#PCDATA) >
+]>
+<!DOCTYPE myMessage [
+    <!ELEMENT myMessage ANY>
+    <!ELEMENT message ANY>
+]>
+-->
+
+<myMessage>
+   <message>Welcome to XML!</message>
+</myMessage>

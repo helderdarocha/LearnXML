@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="oferta" type="ofertaType" />
+  <xs:element name="codigo" type="codigoType"/>
+    
+  <xs:complexType name="ofertaType">
+    <xs:sequence>
+      <xs:element ref="codigo"/>
+      <xs:element ref="preco"/>
+      <xs:element ref="itens"/>
+    </xs:sequence>
+    <xs:attribute name="validade" use="required" type="xs:NMTOKEN"/>
+  </xs:complexType>
+  
+  <xs:complexType name="codigoType">
+    <xs:attribute name="numero" use="required"/>
+    <xs:attribute name="tipo" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:NMTOKEN">
+          <xs:enumeration value="T" />
+          <xs:enumeration value="P" />
+          <xs:enumeration value="U" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  
+  <xs:element name="preco">
+    <xs:simpleType>
+      <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="2" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="itens">
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="1"/>
+        <xs:maxInclusive value="20"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+</xs:schema>

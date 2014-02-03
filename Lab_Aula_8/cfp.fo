@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"><fo:layout-master-set><fo:simple-page-master page-height="29.7cm" page-width="21cm" margin-right="1.5cm" margin-left="2.5cm" margin-bottom="2cm" margin-top="1.5cm" master-name="p1"><fo:region-body margin-bottom="1.7cm" margin-top="1.7cm"/><fo:region-before extent="1.5cm"/><fo:region-after extent="1.5cm"/></fo:simple-page-master></fo:layout-master-set><fo:page-sequence master-name="p1"><fo:static-content flow-name="xsl-region-before"><fo:block border-bottom-color="rgb(0,0,80)" border-bottom-style="solid" border-bottom-width="1px" text-align="end" font-size="7pt">eXtreme Programming Brasil - CHAMADA DE TRABALHOS</fo:block></fo:static-content><fo:static-content flow-name="xsl-region-after"><fo:block border-top-color="rgb(0,0,80)" border-top-style="solid" border-top-width="1px" text-align="end" font-size="7pt">
+                        Página <fo:page-number/></fo:block></fo:static-content><fo:flow flow-name="xsl-region-body"><fo:block font-family="sans-serif" font-size="18pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">CHAMADA DE TRABALHOS</fo:block><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">eXtreme Programming Brasil</fo:block><fo:list-block><fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px" start-indent="10pt"><fo:block><fo:basic-link color="gray" text-decoration="underline" internal-destination="intro"/></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px" start-indent="10pt"><fo:block><fo:basic-link color="gray" text-decoration="underline" internal-destination="formas">Formas de apresentação</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px" start-indent="10pt"><fo:block><fo:basic-link color="gray" text-decoration="underline" internal-destination="revista">Revista eXtreme Programming Brasil</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px" start-indent="10pt"><fo:block><fo:basic-link color="gray" text-decoration="underline" internal-destination="beneficios">Benefícios aos palestrantes</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px" start-indent="10pt"><fo:block><fo:basic-link color="gray" text-decoration="underline" internal-destination="datas">Datas importantes</fo:basic-link></fo:block></fo:list-item-body></fo:list-item><fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px" start-indent="10pt"><fo:block><fo:basic-link color="gray" text-decoration="underline" internal-destination="procedimento">Procedimento para submissão de trabalhos</fo:basic-link></fo:block></fo:list-item-body></fo:list-item></fo:list-block><fo:block id="intro"><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px"/>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">O congresso <fo:inline font-weight="bold">eXtreme Programming Brasil</fo:inline> tem como objetivo
+    reunir a comunidade brasileira de usuários e interessados em
+    metodologias ágeis de desenvolvimento de software para relatar 
+    suas experiências, propor soluções, apresentar aplicações práticas e
+    discutir as implicações do uso da metodologia <fo:basic-link color="gray" text-decoration="underline" external-destination="http://xp">eXtreme Programming</fo:basic-link> e
+    outras metodologias ágeis no processo de desenvolvimento de software.</fo:block>
+    
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Convidamos autores, profissionais, academicos e especialistas que
+    utilizam a metodologia XP no seu dia-a-dia, em suas pesquisas e em
+    ambientes de produção para contribuir com <fo:inline font-weight="bold">palestras</fo:inline>, <fo:inline font-weight="bold">artigos</fo:inline> e <fo:inline font-weight="bold">tutoriais</fo:inline> voltados
+    para o público técnico (desenvolvedores) e gerencial (gerentes e
+    clientes de software). </fo:block>
+    
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Os trabalhos submetidos devem estar relacionados à metologia 
+    XP ou outras metodologias ágeis. Os assuntos de interesse incluem
+    mas não se limitam a:</fo:block>
+    
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px"><fo:list-block>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Estudos de caso e relatos de experiências com XP e metodologias ágeis</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Discussão comparativa de outros processos e metodologias em relação ao XP</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Dificuldades na implantação e gerenciamento de XP</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Técnicas e ferramentas para implantar práticas do XP</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Introdução a práticas específicas do XP (as 12 práticas)</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Pair programming: experiências e técnicas</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Testes de unidade e de aceitação: soluções práticas, experiencias</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Refactoring (refinamento constante e redesign durante o processo de desenvolvimento)</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Integração contínua</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Certificação de processos XP (CMM, ISO 9001, etc.)</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Planejamento e estratégias de viabilização de projetos XP</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Experiencias e/ou resultados da introdução de XP e outras metodologias em cursos universitários.</fo:block></fo:list-item-body></fo:list-item>
+    </fo:list-block></fo:block>
+    
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Além dos palestrantes selecionados, o evento também contará com palestrantes internacionais convidados.
+    Até o momento está confirmada a presença de <fo:basic-link color="gray" text-decoration="underline" external-destination="http://kent">Kent Beck</fo:basic-link> - criador do eXtreme Programming e <fo:basic-link color="gray" text-decoration="underline" external-destination="http://scott">Scott Ambler</fo:basic-link>.
+    </fo:block>
+    
+    </fo:block><fo:block id="formas"><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">Formas de apresentação</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Os trabalhos submetidos podem ser apresentados em dois formatos: <fo:inline font-weight="bold">palestra</fo:inline> ou <fo:inline font-weight="bold">tutorial</fo:inline>.
+    As palestras têm duração de uma hora. Os tutoriais, com duração de 3 ou de 6 horas, exploram
+    temas que requerem um tempo maior para exposição. .</fo:block>
+    </fo:block><fo:block id="revista"><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">Revista eXtreme Programming Brasil</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">O <fo:inline font-weight="bold">eXtreme Programming Brasil</fo:inline> também aceitará a submissão de <fo:inline font-weight="bold">artigos</fo:inline> sobre os temas propostos.
+    Os artigos devem ter entre 2 e 6 páginas (incluíndo as ilustrações) em formato A4 e fonte
+    Times Roman 10 pontos. O formato para sumbissão de artigos será divulgado em breve. O evento
+    produzirá uma revista contendo entre 10 e 15 artigos selecionados.</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Os artigos são independentes das palestras e tutoriais mas nada impede que um palestrante
+    submeta um artigo e uma palestra ou tutorial. Isto inclusive é estimulado. Palestras e tutoriais
+    técnicos submetidos com artigos terão maiores chances de aprovação.</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">A revista conterá, além dos artigos selecionados, artigos de autores convidados e
+    espaços destinados à publicidade.</fo:block>
+    </fo:block><fo:block id="beneficios"><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">Benefícios aos palestrantes</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Palestrantes do <fo:inline font-weight="bold">eXtreme Programming Brasil</fo:inline> terão acesso livre em qualquer palestra do
+    evento e poderão assistir quaisquer tutoriais que não estiverem com sua capacidade
+    esgotada.</fo:block>
+    </fo:block><fo:block id="datas"><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">Datas importantes</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px"><fo:list-block>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Data limite para envio de propostas
+               : 30 de setembro de 2002</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Pré-seleção
+               : 10 de outubro</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Votação pública 
+               : 10 a 20 de outubro</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Data limite para submissão de artigos
+               : 20 de outubro</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Notificação de aceitação
+               : 30 de outubro</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Data limite para envio do material para a coordenação técnica
+               : 20 de outubro</fo:block></fo:list-item-body></fo:list-item>
+        <fo:list-item><fo:list-item-label><fo:block color="blue" font-size="10pt">&#8226;</fo:block></fo:list-item-label><fo:list-item-body start-indent="20pt"><fo:block>Realização do evento
+               : 4 de dezembro</fo:block></fo:list-item-body></fo:list-item>
+    </fo:list-block></fo:block>
+    </fo:block><fo:block id="procedimento"><fo:block font-family="sans-serif" font-size="16pt" color="rgb(20, 80, 80)" space-before="10px" space-after="10px">Procedimento para submissão de trabalhos</fo:block>
+    <fo:block font-family="sans-serif" font-size="9pt" color="rgb(20,20, 40)" space-before="10px" space-after="10px">Em breve será disponibilizado um formulário para facilitar a submissão de trabalhos. Caso você já tenha um trabalho a submeter, 
+    voce já pode enviar a proposta. Ela deve estar em formato texto (anexo ou diretamente no corpo do e-mail) e conter Título, 
+    resumo de 100 palavras (máximo), assuntos que serão abordados (lista de tópicos - até 100 palavras), público-alvo (gerencial 
+    ou técnico), formato (tutorial ou palestra e/ou artigo), seu nome, empresa/instituição e curriculum vitae resumido 
+    (até 300 palavras) para <fo:basic-link color="gray" text-decoration="underline" external-destination="mailto:email">email@dominio.com.br</fo:basic-link>. </fo:block>
+    </fo:block></fo:flow></fo:page-sequence></fo:root>

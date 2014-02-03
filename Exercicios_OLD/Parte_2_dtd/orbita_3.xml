@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orbita SYSTEM "orbita.dtd" >
+<orbita raioMedUA="1">
+    <planeta id="p3" nome="Terra" diametrokm="12756" perielioUA="0.9833" afelioUA="1.0167" periodoOrbitalD="365.25636" periodoRotacaoSideralH="23.93447" inclinacaoAxial="23.4394" massaKg="5.972e24">
+        <imagem href="earth.jpg" />
+        <satelite id="p3.1"  nome="Lua"  diametrokm="3475"   raioMedOrbitakm="384400" massaKg="7.346e22" >
+            <imagem href="moon.jpg"></imagem>
+        </satelite>  
+    </planeta>
+</orbita>

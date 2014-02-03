@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE raiz [
+
+<!ELEMENT raiz ANY >
+<!ELEMENT p ANY >
+<!ELEMENT table ANY >
+<!ELEMENT tr ANY >
+<!ELEMENT td ANY >
+<!ENTITY empresa "ACME Industria &amp; Comercio de Coisas S.A."> 
+<!ENTITY copyright "<table> 
+<tr> 
+<td>Copyright &#x00A9; 2000</td> 
+</tr> 
+</table>">
+
+]>
+
+<raiz>
+    
+    <p>Empresa: &empresa;</p>
+    <p>Leia: &copyright;</p>
+    
+</raiz>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<curso grupo="xml" assunto="3" subgrupo="0" fragmento="0">
+  <titulo>Transformação XML usando XSLT e XPath</titulo>
+  <carga-horaria>24</carga-horaria>
+  <pre-requisito tipo="obrigatorio">Conhecimento básico de XML (Curso xml100 ou equivalente)  </pre-requisito>
+  <descricao>Como alterar a estrutura de dos dados armazenados em um documento XML? Como   aproveitar os mesmos dados guardados em XML para gerar páginas para WAP, para a Web  e para envio via e-mail como texto? Esses são alguns dos problemas abordados neste  curso que propõe utilizar as tecnologias XSLT e XPath para transformar documentos XML  em outros formatos. Com XSLT - <i>Extensible Stylesheet Language for  Transformation</i> é possível usar documentos XML para guardar regras de transformação  que podem ser aplicadas em outros documentos.</descricao>
+  <objetivo>Ao final deste curso o aluno deverá ter conhecimentos de XSLT e XPath suficientes   para ter condições de construir folhas de estilo capazes de transformar documentos XML  em outros documentos XML (com estrutura diferente), em páginas HTML, em arquivos de   texto ou outros formatos que conheça (como WML, VRML, etc.)   Saberá como executar as transformações em linha de  comando ou embutir componentes dentro de aplicações Web (baseadas em Java) para  a transformação "on-the-fly".</objetivo>
+  <observacao>O conhecimento de Java (linguagem usada em alguns exemplos) não é essencial  para alcançar os objetivos propostos pelo curso. Toda a tecnologia apresentada  neste curso é aberta (<link tipo="http" target="web">www.w3.org</link>) e pode   ser usada em outras plataformas.</observacao>
+  <topicos>
+  <item>Como transformar XML em XHTML</item>
+  <item>Acesso a elementos, atributos e texto</item>
+  <item>Variáveis e caminhos</item>
+  <item>Repetição</item>
+  <item>Processamento condicional</item>
+  <item>Processamento recursivo</item>
+  <item>Operadores e Funções</item>
+  <item>Numeração e Ordenação</item>
+  <item>Geração de identificadores</item>
+  <item>Tópicos avançados</item>
+  <item>Como embutir a transformação em outros programas e aplicações Web</item>
+  <item>Transformação em texto e outros formatos</item>
+  </topicos>
+</curso>

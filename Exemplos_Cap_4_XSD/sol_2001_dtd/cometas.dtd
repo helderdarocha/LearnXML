@@ -1,0 +1,4 @@
+<!ELEMENT cometa EMPTY>
+<!ATTLIST cometa id ID #REQUIRED
+                 nome NMTOKEN #REQUIRED
+                 planetas IDREFS #IMPLIED>

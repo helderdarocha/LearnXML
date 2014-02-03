@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orbita SYSTEM "orbita.dtd" >
+<orbita raioMedUA="0.387">
+    <planeta id="p1" nome="Mercúrio" diametrokm="4879" perielioUA="0.3075" afelioUA="0.4667" periodoOrbitalD="87.97" periodoRotacaoSideralH="1407.5" inclinacaoAxial="0.01" massaKg="3.301e23">
+        <imagem href="mercury.jpg" />
+    </planeta>
+</orbita>

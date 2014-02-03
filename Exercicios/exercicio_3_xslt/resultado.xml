@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animals>
+<skunk>22</skunk>
+<rat>3</rat>
+<bat>
+	<head>2</head>
+	<tail>2</tail>
+	<wings>5</wings>
+</bat>
+</animals>

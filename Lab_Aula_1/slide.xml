@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<slide id="31">
+    <title>SVG</title>        
+    <body>
+        <n1>W3C <initial>S</initial>calable 
+                <initial>V</initial>ector 
+                <initial>G</initial>raphics</n1>
+        
+        <n2>Gráficos vetoriais em XML</n2>
+        <n2>Plug-ins para principais browsers: concorre com Flash</n2>
+        <n2>Suporta animações, links, JavaScript, CSS</n2>
+        <n2>Produzido por ferramentas como Adobe Ilustrator</n2>
+        <n2>Pode ser embutido no código XHTML e XSL-FO</n2>
+    </body>
+</slide>

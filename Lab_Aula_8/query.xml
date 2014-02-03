@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="query2html.xsl" ?>
+<query>
+    <row>
+        <value field="data">25/07/2002</value>
+        <value field="hora">15:54:40</value>
+        <value field="grupo">2a a 6a</value>
+        <value field="tipo">Video</value>
+        <value field="duracao">00:15:00</value>
+        <value field="valor">4.95</value>
+    </row>
+    <row>
+        <value field="data">25/07/2002</value>
+        <value field="hora">15:45:30</value>
+        <value field="grupo">2a a 6a</value>
+        <value field="tipo">Voz</value>
+        <value field="duracao">00:10:36</value>
+        <value field="valor">0.05</value>
+    </row>
+    <row>
+        <value field="data">26/07/2002</value>
+        <value field="hora">12:45:30</value>
+        <value field="grupo">Feriado</value>
+        <value field="tipo">Voz</value>
+        <value field="duracao">04:55:49</value>
+        <value field="valor">80.05</value>
+    </row>
+</query>

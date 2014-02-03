@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl" ?>
+<page>
+  <folder>1.xml</folder>
+  <folder>2.xml</folder>
+  <folder>3.xml</folder>
+  <folder>4.xml</folder>
+</page>

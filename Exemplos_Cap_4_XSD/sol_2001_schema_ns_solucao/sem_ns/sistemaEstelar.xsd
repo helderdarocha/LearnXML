@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="estrela" type="AstroType" />
+    <xsd:element name="planeta" type="AstroType" />
+    <xsd:element name="asteroide" type="AstroType"/>
+    <xsd:element name="satelite" type="AstroType"/>
+    <xsd:element name="cometa" type="AstroType"/>
+    
+    <xsd:complexType name="astroType">
+        <xsd:sequence>
+           <element ref="estrela" minOccurs="0" />
+           <element ref="imagem" />
+           <element ref="satelite" minOccurs="0" />
+        </xsd:sequence>
+        <xsd:attribute name="nome" type="xsd:string" use="required"/>
+        <xsd:attribute name="diametrokm" type="xsd:integer" use="optional"/>
+        <xsd:attribute name="id" type="xsd:string" use="optional"/>
+        <xsd:attribute name="anoDescobrimento" type="xsd:gYear" use="optional"/>
+    </xsd:complexType>
+    
+    <xsd:element name="imagem" type="" />
+    <xsd:element name="orbita" type="" />
+    <xsd:element name="centro" type=""/>
+    
+
+</xsd:schema>

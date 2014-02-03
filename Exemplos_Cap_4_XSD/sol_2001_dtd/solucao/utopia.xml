@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE sistemaEstelar SYSTEM "sistemaEstelar.dtd">
+<sistemaEstelar>
+    <centro>
+        <estrela id="e0" nome="UtopiaUm" cor="branca" />
+    </centro>
+    <orbita>
+        <planeta id="p1" nome="Yeti"/>
+    </orbita>
+    <orbita>
+        <planeta id="p2" nome="Sasquatch"/>
+    </orbita>
+    <orbita>
+        <planeta id="p3" nome="Nessie"/>
+    </orbita>
+    <orbita>
+        <planeta id="p4" nome="Chupa-cabra"/>
+    </orbita>
+    <orbita>
+        <estrela id="e5" nome="UtopiaDois" cor="vermelha">
+            <satelite id="e5.1" nome="Unicórnio" >
+                <satelite id="e5.1.1" nome="Chifre" />
+                <satelite id="e5.1.2" nome="Asa Esquerda" />
+                <satelite id="e5.1.3" nome="Asa Direita" />
+            </satelite>
+            <satelite id="e5.2" nome="Saci Pererê" />
+            <satelite id="e5.3" nome="Papai Noel" />
+        </estrela>
+    </orbita>
+</sistemaEstelar>

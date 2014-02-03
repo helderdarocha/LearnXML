@@ -1,0 +1,35 @@
+<!ELEMENT a ( #PCDATA ) >
+<!ATTLIST a href CDATA #REQUIRED >
+
+<!ELEMENT b ( #PCDATA ) >
+
+<!ELEMENT date ( #PCDATA | a | b | i | comment )* >
+
+<!ELEMENT deadline ( description, date ) >
+
+<!ELEMENT description ( #PCDATA | a | b | i | comment )* >
+
+<!ELEMENT document ( description*, head, section+ ) >
+
+<!ELEMENT head ( title-line+, subtitle-line* ) >
+
+<!ELEMENT i ( #PCDATA ) >
+
+<!ELEMENT item ( #PCDATA | a | b | i | comment )* >
+
+<!ELEMENT list ( deadline | topic | item )* >
+
+<!ELEMENT p ( #PCDATA | a | b | i | comment )* >
+
+<!ELEMENT comment ( #PCDATA | a | b | i )* >
+
+<!ELEMENT section ( list | p )* >
+<!ATTLIST section name NMTOKEN #REQUIRED >
+<!ATTLIST section title CDATA #IMPLIED >
+
+<!ELEMENT subtitle-line ( #PCDATA ) >
+
+<!ELEMENT title-line ( #PCDATA ) >
+
+<!ELEMENT topic ( #PCDATA | a | b | i | comment )* >
+

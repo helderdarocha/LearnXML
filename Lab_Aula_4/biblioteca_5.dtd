@@ -1,0 +1,66 @@
+<!NOTATION jpeg  SYSTEM  "image/jpeg"> 
+
+<!--Entidades gerais externas nao-processadas: <biblioteca logotipo="logo"> -->
+<!ENTITY   logo  SYSTEM  "venus.jpg"   NDATA jpeg>
+<!ENTITY   logo2 SYSTEM  "jupiter.jpg" NDATA jpeg>
+
+<!-- Entidade geral interna processada &pessoas; -->
+<!ENTITY pessoas '<pessoas>
+    <pessoa id="D912">
+        <nome>Charles Darwin</nome>
+    </pessoa> 
+    <pessoa id="G322">
+        <nome>Erich Gamma</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="V102">
+        <nome>John Vlissides</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="H662">
+        <nome>Helm</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="J731">
+        <nome>Johnson</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="H321">
+        <nome>F. Scott Fitzgerald</nome>
+    </pessoa>
+</pessoas>' >
+
+<!-- Entidade geral externa processada &livros; -->
+<!ENTITY livros SYSTEM "livros.xml" >
+
+<!ELEMENT biblioteca (pessoas, livros) >
+
+<!-- Este atributo pode receber apenas entidades externas nao-processadas  -->
+<!ATTLIST biblioteca logotipo ENTITY #IMPLIED>
+
+<!ELEMENT pessoas (pessoa*) >
+<!ELEMENT livros  (livro*) >
+
+<!ELEMENT pessoa (nome) >
+<!ATTLIST pessoa tipo (autor | tradutor | editor) "autor"
+                 id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA) >
+
+<!ELEMENT livro     (titulo, idioma, assunto+, descricao) >
+<!ATTLIST livro numero NMTOKEN #REQUIRED 
+                data   NMTOKEN #REQUIRED 
+                id ID #REQUIRED
+                autorRef IDREFS #REQUIRED>
+
+<!ELEMENT titulo    (#PCDATA) >
+
+<!ELEMENT idioma    (#PCDATA) >
+<!ATTLIST idioma codigo (pt | en | de | fr | es) #REQUIRED >
+
+<!ELEMENT autor     (#PCDATA) >
+
+<!ELEMENT assunto   (#PCDATA) >
+<!ATTLIST assunto dewey NMTOKEN #REQUIRED >
+
+<!ELEMENT termo     (#PCDATA) >
+
+<!ELEMENT sinopse   (#PCDATA) >
+
+<!ELEMENT descricao (#PCDATA | termo | sinopse)* >

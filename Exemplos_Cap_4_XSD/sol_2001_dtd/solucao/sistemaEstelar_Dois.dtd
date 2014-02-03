@@ -1,0 +1,14 @@
+
+<!ENTITY % satelite SYSTEM "satelite.dtd">
+%satelite;
+
+<!ELEMENT sistemaEstelar (centro, orbita*)>
+<!ELEMENT centro (estrela)>
+<!ELEMENT orbita (estrela|planeta)>
+<!ELEMENT estrela (satelite*)>
+<!ELEMENT planeta (satelite*)>
+<!ATTLIST estrela id ID #REQUIRED
+                  nome CDATA #REQUIRED
+                  cor  NMTOKEN #IMPLIED>
+<!ATTLIST planeta id ID #REQUIRED
+                  nome CDATA #REQUIRED>

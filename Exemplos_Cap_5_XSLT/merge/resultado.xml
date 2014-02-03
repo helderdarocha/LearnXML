@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<documentos>
+  
+  <aluno id="1">
+    <nome>x</nome>
+    <idade>10</idade>
+  </aluno>
+
+  
+  <aluno id="2">
+    <nome>y</nome>
+    <idade>12</idade>
+  </aluno>
+
+  
+  <aluno id="3">
+    <nome>z</nome>
+    <idade>15</idade>
+  </aluno>
+
+</documentos>

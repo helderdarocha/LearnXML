@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="sistemaEstelar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="centro"/>
+        <xs:element maxOccurs="unbounded" ref="orbita"/>
+      </xs:sequence>
+      <xs:attribute name="dataAtualizacao" use="required" type="xs:date"/>
+      <xs:attribute name="versao" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="centro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="estrela"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="estrela">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="imagem"/>
+      </xs:sequence>
+      <xs:attribute name="cor" use="required" type="xs:NCName"/>
+      <xs:attribute name="diametrokm" use="required" type="xs:integer"/>
+      <xs:attribute name="massaKg" use="required" type="xs:double"/>
+      <xs:attribute name="nome" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="orbita">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="planeta-anao"/>
+        <xs:choice>
+          <xs:element ref="planeta"/>
+          <xs:element maxOccurs="unbounded" ref="asteroide"/>
+          <xs:element maxOccurs="unbounded" ref="objeto"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="nome"/>
+      <xs:attribute name="raioMedUA" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="planeta-anao">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="imagem"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="satelite"/>
+      </xs:choice>
+      <xs:attribute name="afelioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="anoDescobrimento" use="required" type="xs:integer"/>
+      <xs:attribute name="descobertoPor" use="required"/>
+      <xs:attribute name="diametrokm" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="inclinacaoAxial" type="xs:integer"/>
+      <xs:attribute name="massaKg" use="required" type="xs:double"/>
+      <xs:attribute name="nome" use="required" type="xs:NCName"/>
+      <xs:attribute name="perielioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="periodoOrbitalD" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="planeta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="imagem"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="satelite"/>
+      </xs:sequence>
+      <xs:attribute name="afelioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="anoDescobrimento" type="xs:integer"/>
+      <xs:attribute name="descobertoPor"/>
+      <xs:attribute name="diametrokm" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="inclinacaoAxial" use="required" type="xs:decimal"/>
+      <xs:attribute name="massaKg" use="required" type="xs:double"/>
+      <xs:attribute name="nome" use="required" type="xs:NCName"/>
+      <xs:attribute name="perielioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="periodoOrbitalD" use="required" type="xs:decimal"/>
+      <xs:attribute name="periodoRotacaoSideralH" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="asteroide">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="satelite"/>
+      </xs:sequence>
+      <xs:attribute name="afelioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="anoDescobrimento" use="required" type="xs:integer"/>
+      <xs:attribute name="descobertoPor" use="required"/>
+      <xs:attribute name="diametrokm" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="massaKg" type="xs:double"/>
+      <xs:attribute name="nome" use="required" type="xs:NCName"/>
+      <xs:attribute name="perielioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="periodoOrbitalD" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="objeto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="satelite"/>
+      </xs:sequence>
+      <xs:attribute name="afelioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="anoDescobrimento" use="required" type="xs:integer"/>
+      <xs:attribute name="descobertoPor" use="required"/>
+      <xs:attribute name="diametrokm" use="required" type="xs:integer"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="nome" use="required"/>
+      <xs:attribute name="perielioUA" use="required" type="xs:decimal"/>
+      <xs:attribute name="periodoOrbitalD" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="imagem">
+    <xs:complexType>
+      <xs:attribute name="href" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="satelite">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="imagem"/>
+      </xs:sequence>
+      <xs:attribute name="anoDescobrimento" type="xs:integer"/>
+      <xs:attribute name="descobertoPor"/>
+      <xs:attribute name="diametrokm" use="required" type="xs:decimal"/>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+      <xs:attribute name="massaKg" type="xs:double"/>
+      <xs:attribute name="nome" use="required"/>
+      <xs:attribute name="raioMedOrbitakm" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

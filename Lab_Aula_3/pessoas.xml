@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pessoas SYSTEM "biblioteca_6.dtd" [
+    <!ENTITY % incluir.mod.livros "IGNORE" >
+]>
+
+<pessoas>
+    <pessoa id="D912">
+        <nome>Charles Darwin</nome>
+    </pessoa> 
+    <pessoa id="G322">
+        <nome>Erich Gamma</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="V102">
+        <nome>John Vlissides</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="H662">
+        <nome>Helm</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="J731">
+        <nome>Johnson</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="H321">
+        <nome>F. Scott Fitzgerald</nome>
+    </pessoa>
+</pessoas>

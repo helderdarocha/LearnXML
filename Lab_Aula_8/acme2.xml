@@ -1,0 +1,38 @@
+<servico-de-consultoria>
+    <contratante>Acme S.A</contratante>
+    <referente nota="21" data="13/9/2002" />
+    <descricao>Consultoria em Java / EJB / XML</descricao>
+    <periodo ano="2002" mes="9">
+        <servicos>
+            <periodo dia="11">
+                <descricao></descricao>
+                <inicio hora="9" minuto="0" />
+                <fim hora="17" minuto="30" />
+            </periodo>
+            <periodo dia="12">
+                <descricao></descricao>
+                <inicio hora="10" minuto="45" />
+                <fim hora="20" minuto="30" />
+            </periodo>
+            <periodo dia="13">
+                <descricao></descricao>
+                <inicio hora="9" minuto="15" />
+                <fim hora="18" minuto="15" />
+            </periodo>
+        </servicos>
+        <despesas>
+            <periodo dia="11">
+                <despesa tipo="taxi" numero="125886">29.00</despesa>
+                <despesa tipo="alimentacao" numero="7746">10.00</despesa>
+            </periodo>
+            <periodo dia="12">
+                <despesa tipo="taxi" numero="94383">34.00</despesa>
+                <despesa tipo="alimentacao" numero="0137">13.00</despesa>
+            </periodo>
+            <periodo dia="13">
+                <despesa tipo="taxi" numero="124066">36.00</despesa>
+                <despesa tipo="alimentacao" numero="01001354">15.05</despesa>
+            </periodo>
+        </despesas>
+    </periodo>
+</servico-de-consultoria>

@@ -1,0 +1,10 @@
+<contact type = "to">
+      <name>Jane Doe</name>
+      <address1>123 Main St.</address1>
+      <address2></address2>
+      <city>Anytown</city>
+      <state>Anystate</state>
+      <zip>12345</zip>
+      <phone>555-1234</phone>
+      <flag gender = "M"/>
+   </contact>

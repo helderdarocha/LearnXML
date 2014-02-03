@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Rowsets (Rowset+) >
+<!ATTLIST Rowsets DateCreated  NMTOKEN #REQUIRED
+                  EndDate      NMTOKEN #REQUIRED
+                  StartDate    NMTOKEN #REQUIRED
+                  Version      CDATA   #REQUIRED>
+<!ELEMENT Rowset (Columns, Row) >
+<!ELEMENT Columns (Column+) >
+<!ELEMENT Row (DateTime?, 
+               ((MIN_CylTemp1, MAX_CylTemp1, AVG_CylTemp1) |
+                (MIN_CylTemp2, MAX_CylTemp2, AVG_CylTemp2) |
+                (MIN_CylTemp3, MAX_CylTemp3, AVG_CylTemp3) |
+                (MIN_CylTemp4, MAX_CylTemp4, AVG_CylTemp4)
+               ))>
+<!ELEMENT Column EMPTY>
+<!ATTLIST Column Description  CDATA   #IMPLIED
+                 MaxRange     NMTOKEN #IMPLIED
+                 MinRange     NMTOKEN #IMPLIED
+                 Name         NMTOKEN #IMPLIED
+                 SQLDataType  NMTOKEN #IMPLIED
+                 SourceColumn NMTOKEN #IMPLIED>
+     
+<!ELEMENT DateTime (#PCDATA)>
+
+<!ELEMENT MIN_CylTemp1 (#PCDATA)>
+<!ELEMENT MIN_CylTemp2 (#PCDATA)>
+<!ELEMENT MIN_CylTemp3 (#PCDATA)>
+<!ELEMENT MIN_CylTemp4 (#PCDATA)>
+<!ELEMENT MAX_CylTemp1 (#PCDATA)>
+<!ELEMENT MAX_CylTemp2 (#PCDATA)>
+<!ELEMENT MAX_CylTemp3 (#PCDATA)>
+<!ELEMENT MAX_CylTemp4 (#PCDATA)>
+<!ELEMENT AVG_CylTemp1 (#PCDATA)>
+<!ELEMENT AVG_CylTemp2 (#PCDATA)>
+<!ELEMENT AVG_CylTemp3 (#PCDATA)>
+<!ELEMENT AVG_CylTemp4 (#PCDATA)>

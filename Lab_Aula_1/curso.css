@@ -1,0 +1,48 @@
+* {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 150%;
+    font-size: 11pt;
+}
+curso {
+    border: solid blue 1px;
+    margin: 1cm;
+    background: white;
+    padding: 1cm;
+}
+titulo {
+    font-size: 18pt; 
+    color: rgb(50%,50%,100%)
+}
+
+titulo:before {
+    font-size: 20pt; 
+    color: navy; 
+    font-family: tahoma, sans-serif
+}
+
+pre-requisito:before {content: "Pré-requisitos: "; font-weight: bold}
+descricao:before {content: "Descrição: "; font-weight: bold}
+objetivo:before {content: "Objetivo: "; font-weight: bold}
+	
+carga-horaria:before {
+    content: "Carga-Horária: ";
+    font-weight: bold;
+}
+carga-horaria:after {
+    content: " h";
+}
+topicos:before {
+    content: "Tópicos";
+    font-weight: bold;
+}
+topicos {
+    display: list;
+    margin-bottom: 2em;
+}
+item {
+    margin-left: 50px;
+    display: list-item;
+    line-height: 50%;
+}

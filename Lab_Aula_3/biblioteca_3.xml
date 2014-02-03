@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+
+<biblioteca>
+    <pessoa id="J344">
+        <nome>Jorge Luis Borges</nome>
+    </pessoa>
+    
+    <livro numero="5" data="2010-10-01" id="L.991" autorRef="J344">
+        <titulo>Ficciones</titulo>
+        <idioma codigo="es"></idioma>
+        <assunto dewey="860">Literatura de Lingua Espanhola</assunto>
+        <descricao></descricao>
+    </livro>
+    
+</biblioteca>

@@ -1,0 +1,10 @@
+<!ENTITY % atributos "id ID #REQUIRED
+                      nome CDATA #REQUIRED
+                      diametrokm NMTOKEN #IMPLIED
+                      raioMedOrbitakm CDATA #IMPLIED
+                      anoDescobrimento NMTOKEN #IMPLIED">
+<!ELEMENT satelite (satelite*)>
+<!ATTLIST satelite %atributos;> 
+<!ELEMENT asteroide (satelite*)>
+<!ATTLIST asteroide %atributos;> 
+

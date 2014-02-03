@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><pessoas>
+    <pessoa id="D912" tipo="autor">
+        <nome>Charles Darwin</nome>
+    </pessoa> 
+    <pessoa id="G322" tipo="autor">
+        <nome>Erich Gamma</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="V102">
+        <nome>John Vlissides</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="H662">
+        <nome>Helm</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="J731">
+        <nome>Johnson</nome>
+    </pessoa>
+    <pessoa tipo="autor" id="H321">
+        <nome>F. Scott Fitzgerald</nome>
+    </pessoa>
+</pessoas>

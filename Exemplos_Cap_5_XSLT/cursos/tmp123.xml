@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<curso assunto="1" fragmento="3" grupo="tmp" subgrupo="2"><titulo>Curso temporário de testes</titulo><carga-horaria>20</carga-horaria><pre-requisito>Nao há</pre-requisito><descricao>Este é um curso temerário, de testes, temporário. Acrescentei mais coisas.</descricao><objetivo>Assustar, apenas.</objetivo><observacao>É inútil.</observacao><topicos><item>Um</item><item>Dois</item><item>Três e quatro</item><item>E Seis</item></topicos></curso>

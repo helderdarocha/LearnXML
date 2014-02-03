@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orbita SYSTEM "orbita.dtd" >
+<orbita raioMedUA="2.75" nome="Cinturão de Asteroides">
+    <planeta-anao id="a1"  nome="Ceres"     diametrokm="952" perielioUA="2.547" afelioUA="2.996" periodoOrbitalD="1680" inclinacaoAxial="4" massaKg="9.3e20" anoDescobrimento="1801" descobertoPor="Guiseppe Piazzi" >
+        <imagem href="ceres.jpg" />
+    </planeta-anao>
+
+      <asteroide id="a2"    nome="Pallas"     diametrokm="522" perielioUA="2.132" afelioUA="3.412" periodoOrbitalD="1686"   massaKg="2e20" anoDescobrimento="1802" descobertoPor="Heinrich Olbers" /> 
+    <asteroide id="a3"    nome="Juno"       diametrokm="258" perielioUA="1.988" afelioUA="3.353" periodoOrbitalD="1595.4" anoDescobrimento="1804" descobertoPor="Karl Ludwig Harding" /> 
+    <asteroide id="a4"    nome="Vesta"      diametrokm="529" perielioUA="2.151" afelioUA="5.572" periodoOrbitalD="1325.2" massaKg="2.6e20" anoDescobrimento="1807" descobertoPor="Heinrich Olbers" />
+    <asteroide id="a5"    nome="Astréia"    diametrokm="119" perielioUA="2.077" afelioUA="3.070" periodoOrbitalD="1507.7" anoDescobrimento="1903" descobertoPor="Karl Ludwig Hencke" />
+    <asteroide id="a6"    nome="Hebe"       diametrokm="186" perielioUA="1.937" afelioUA="2.914" periodoOrbitalD="1379.8" anoDescobrimento="1847" descobertoPor="Karl Ludwig Hencke" /> 
+    <asteroide id="a7"    nome="Iris"       diametrokm="213" perielioUA="1.833" afelioUA="2.937" periodoOrbitalD="1347.8" anoDescobrimento="1847" descobertoPor="John Russell Hind" /> 
+    <asteroide id="a8"    nome="Flora"      diametrokm="128" perielioUA="1.858" afelioUA="2.546" periodoOrbitalD="1193"   anoDescobrimento="1903" descobertoPor="John Russell Hind" /> 
+    <asteroide id="a9"    nome="Métis"      diametrokm="190" perielioUA="2.096" afelioUA="2.678" periodoOrbitalD="1346.8" anoDescobrimento="1848" descobertoPor="Andrew Graham" /> 
+    <asteroide id="a10"   nome="Higiéia"    diametrokm="431" perielioUA="2.77"  afelioUA="3.507" periodoOrbitalD="2031"   anoDescobrimento="1849" descobertoPor="Annibale de Gasparis" /> 
+    <asteroide id="a11"   nome="Parthenope" diametrokm="153" perielioUA="2.208" afelioUA="2.697" periodoOrbitalD="1402.9" anoDescobrimento="1850" descobertoPor="Annibale de Gasparis" />  
+    <asteroide id="a12"   nome="Victoria"   diametrokm="113" perielioUA="1.819" afelioUA="2.849" periodoOrbitalD="1302.4" anoDescobrimento="1850" descobertoPor="John Russell Hind" /> 
+    <asteroide id="a13"   nome="Egéria"     diametrokm="206" perielioUA="2.358" afelioUA="2.794" periodoOrbitalD="1510"   anoDescobrimento="1850" descobertoPor="Annibale de Gasparis" /> 
+    <asteroide id="a14"   nome="Irene"      diametrokm="152" perielioUA="2.150" afelioUA="3.020" periodoOrbitalD="1518.2" anoDescobrimento="1851" descobertoPor="John Russell Hind" /> 
+    <asteroide id="a15"   nome="Eunomia"    diametrokm="272" perielioUA="2.149" afelioUA="3.138" periodoOrbitalD="1569.7" anoDescobrimento="1851" descobertoPor="Annibale de Gasparis" /> 
+    <asteroide id="a16"   nome="Psyque"     diametrokm="264" perielioUA="2.513" afelioUA="3.328" periodoOrbitalD="1823"   anoDescobrimento="1852" descobertoPor="Annibale de Gasparis" /> 
+    <asteroide id="a17"   nome="Tétis"      diametrokm="90"  perielioUA="2.139" afelioUA="2.801" periodoOrbitalD="1418"   anoDescobrimento="1852" descobertoPor="Robert Luther " />
+    <asteroide id="a18"   nome="Melpomene"  diametrokm="141" perielioUA="1.795" afelioUA="2.797" periodoOrbitalD="1270.6" anoDescobrimento="1852" descobertoPor="John Russell Hind" />
+    <asteroide id="a19"   nome="Fortuna"    diametrokm="225" perielioUA="2.052" afelioUA="2.831" periodoOrbitalD="1393.4" anoDescobrimento="1852" descobertoPor="John Russell Hind" /> 
+    <asteroide id="a20"   nome="Massália"   diametrokm="145" perielioUA="2.064" afelioUA="2.753" periodoOrbitalD="1365.3" anoDescobrimento="1852" descobertoPor="Annibale de Gasparis" />
+    <asteroide id="a21"   nome="Lutécia"    diametrokm="100" perielioUA="2.036" afelioUA="2.834" periodoOrbitalD="1387.9" anoDescobrimento="1852" descobertoPor="Hermann Goldschmidt" />
+    <asteroide id="a24"   nome="Temis"      diametrokm="198" perielioUA="2.719" afelioUA="3.539" periodoOrbitalD="2021"   anoDescobrimento="1853" descobertoPor="Annibale de Gasparis" />
+    <asteroide id="a29"   nome="Anfritite"  diametrokm="212" perielioUA="2.369" afelioUA="2.739" periodoOrbitalD="1491"   anoDescobrimento="1854" descobertoPor="Albert Marth" /> 
+    <asteroide id="a31"   nome="Eufrosine"  diametrokm="256" perielioUA="2.438" afelioUA="3.861" periodoOrbitalD="2041.6" anoDescobrimento="1854" descobertoPor="James Ferguson" /> 
+    <asteroide id="a38"   nome="Leda"       diametrokm="116" perielioUA="2.328" afelioUA="3.159" periodoOrbitalD="1660"   anoDescobrimento="1856" descobertoPor="Jean Chacornac" />
+    <asteroide id="a45"   nome="Eugênia"    diametrokm="213" perielioUA="2.497" afelioUA="2.943" periodoOrbitalD="1638.5" anoDescobrimento="1857" descobertoPor="Hermann Goldschmidt" >
+        <satelite id="s1998.45.1" nome="Petit-Prince"      diametrokm="13"   raioMedOrbitakm="-1"  anoDescobrimento="1998" descobertoPor="Canada-France-Hawaii Telescope" />
+        <satelite id="s2004.45.2" nome="S/2004 45 1"       diametrokm="6"    raioMedOrbitakm="-1"  anoDescobrimento="2007" descobertoPor="ESO" />
+    </asteroide> 
+    <asteroide id="a48"   nome="Doris"      diametrokm="222" perielioUA="2.877" afelioUA="3.343" periodoOrbitalD="2003.4" anoDescobrimento="1857" descobertoPor="Hermann Goldschmidt" /> 
+    <asteroide id="a52"   nome="Europa"     diametrokm="301" perielioUA="2.785" afelioUA="3.417" periodoOrbitalD="1994.6" anoDescobrimento="1858" descobertoPor="Hermann Goldschmidt" /> 
+    <asteroide id="a53"   nome="Kalypso"    diametrokm="115" perielioUA="2.086" afelioUA="3.154" periodoOrbitalD="1549"   anoDescobrimento="1858" descobertoPor="Robert Luther" />
+    <asteroide id="a55"   nome="Pandora"    diametrokm="67"  perielioUA="2.359" afelioUA="3.158" periodoOrbitalD="1673"   anoDescobrimento="1858" descobertoPor="George Mary Searle" />
+    <asteroide id="a65"   nome="Cibele"     diametrokm="273" perielioUA="3.073" afelioUA="3.794" periodoOrbitalD="2323.5" anoDescobrimento="1861" descobertoPor="Ernst Wilhelm Tempel" /> 
+    <asteroide id="a87"   nome="Sylvia"     diametrokm="286" perielioUA="3.213" afelioUA="3.768" periodoOrbitalD="2381.7" anoDescobrimento="1866" descobertoPor="Norman Robert Pogson" /> 
+    <asteroide id="a88"   nome="Tisbe"      diametrokm="232" perielioUA="2.312" afelioUA="3.224" periodoOrbitalD="1681.7" anoDescobrimento="1866" descobertoPor="Christian Peters" /> 
+    <asteroide id="a94"   nome="Aurora"     diametrokm="197" perielioUA="2.883" afelioUA="3.435" periodoOrbitalD="2050.8" anoDescobrimento="1867" descobertoPor="James Craig Watson" /> 
+    <asteroide id="a107"  nome="Camila"     diametrokm="215" perielioUA="3.204" afelioUA="3.750" periodoOrbitalD="2368.1" anoDescobrimento="1868" descobertoPor="Norman Robert Pogson"> 
+        <satelite id="s2001.107.1" nome="S2001 107 1"  diametrokm="11"    raioMedOrbitakm="1235"  anoDescobrimento="2001" descobertoPor="A Storrs, F. Villas, R. Landis, E. Wells, C. Woods, B. Zellner, M. Gaffey" />
+    </asteroide>
+    <asteroide id="a121"  nome="Hermione"   diametrokm="190" perielioUA="2.98"  afelioUA="3.93"  periodoOrbitalD="2347.9" anoDescobrimento="1872" descobertoPor="James Craig Watson" >
+        <satelite id="s121.1" nome="Lafayette"       diametrokm="13"    raioMedOrbitakm="-1"  anoDescobrimento="2002" descobertoPor="Keck II" />
+    </asteroide> 
+    <asteroide id="a140"  nome="Siwa"       diametrokm="110" perielioUA="2.141" afelioUA="3.324" periodoOrbitalD="1650" anoDescobrimento="1874" descobertoPor="Johann Palisa" />
+    <asteroide id="a243"  nome="Ida"        diametrokm="45"  perielioUA="2.732" afelioUA="2.991" periodoOrbitalD="1768.1" anoDescobrimento="1884" descobertoPor="Johann Palisa" >
+        <satelite id="s1994.243.1" nome="Dactil"       diametrokm="1.5"    raioMedOrbitakm="90"  anoDescobrimento="1994" descobertoPor="Galileo Project" />
+    </asteroide> 
+    <asteroide id="a253"  nome="Matilda"    diametrokm="16"  perielioUA="1.942" afelioUA="3.351" periodoOrbitalD="1572.8" anoDescobrimento="1885" descobertoPor="Johann Palisa" />
+    <asteroide id="a324"  nome="Bamberga"   diametrokm="229" perielioUA="1.775" afelioUA="3.591" periodoOrbitalD="1605.4" anoDescobrimento="1892" descobertoPor="Johann Palisa" /> 
+    <asteroide id="a375"  nome="Úrsula"     diametrokm="216" perielioUA="2.789" afelioUA="3.46"  periodoOrbitalD="2017.3" anoDescobrimento="1893" descobertoPor="Auguste Charlois" /> 
+    <asteroide id="a423"  nome="Diotima"    diametrokm="209" perielioUA="2.941" afelioUA="3.191" periodoOrbitalD="1961"   anoDescobrimento="1896" descobertoPor="Auguste Charlois" /> 
+    <asteroide id="a433"  nome="Eros"       diametrokm="12"  perielioUA="1.133" afelioUA="1.783" periodoOrbitalD="643.2"  anoDescobrimento="1898" descobertoPor="Carl Gustav Witt" /> 
+    <asteroide id="a451"  nome="Patientia"  diametrokm="225" perielioUA="2.823" afelioUA="3.295" periodoOrbitalD="1954.2" anoDescobrimento="1899" descobertoPor="Auguste Charlois" /> 
+    <asteroide id="a511"  nome="Davida"     diametrokm="289" perielioUA="2.58"  afelioUA="3.754" periodoOrbitalD="2058.4" anoDescobrimento="1903" descobertoPor="R. S. Dugan" /> 
+    <asteroide id="a532"  nome="Herculina"  diametrokm="222" perielioUA="2.29"  afelioUA="3.26"  periodoOrbitalD="1687.5" anoDescobrimento="1904" descobertoPor="Max Wolf" /> 
+    <asteroide id="a704"  nome="Interamnia" diametrokm="326" perielioUA="2.601" afelioUA="3.522" periodoOrbitalD="1957.5" anoDescobrimento="1910" descobertoPor="Vincenzo Cerulli" />  
+</orbita>

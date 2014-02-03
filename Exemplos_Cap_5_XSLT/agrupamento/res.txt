@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dl><dt>gold</dt><dd>this is a bracelet</dd><dd>this is a ring</dd><dt>platinum</dt><dd>this is a platinum time piece</dd><dt>Silver</dt><dd>this is a silver watch</dd></dl>

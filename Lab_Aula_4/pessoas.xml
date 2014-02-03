@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pessoas xmlns:xxx="http://www.w3.org/2001/XMLSchema-instance"
+    xxx:schemaLocation="______ pessoa.xsd"
+    xmlns="______">
+    
+    <pessoa>
+        <nome>Charles Darwin</nome>
+    </pessoa>
+    <pessoa>
+        <nome>Erich Gamma</nome> 
+    </pessoa>
+    <pessoa>
+        <nome>John Vlissides</nome>
+    </pessoa>
+    <pessoa>
+        <nome>Helm</nome>
+    </pessoa>
+    <pessoa>
+        <nome>Johnson</nome>
+    </pessoa>
+    <pessoa>
+        <nome>F. Scott Fitzgerald</nome>
+    </pessoa>
+</pessoas>

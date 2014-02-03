@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE livro SYSTEM "livro.dtd">
+<livro>
+    <titulo>Design Patterns</titulo>
+    <idioma/>
+    <autor>Erich Gamma</autor>
+    <autor>John Vlissides</autor>
+    <autor>Helm</autor>
+    <autor>Johnson</autor>
+    <assunto>Informatica: programacao</assunto>
+    <descricao>Classico do padroes de design.</descricao>
+</livro>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<curso grupo="xml" assunto="4" subgrupo="0" fragmento="0">
+  <titulo>Formatação XML usando XSL-FO</titulo>
+  <carga-horaria>24</carga-horaria>
+  <pre-requisito tipo="obrigatorio">Este curso supõe que o aluno conheça o processo de transformação usando XSLT (curso xml300 ou equivalente)</pre-requisito>
+  <pre-requisito tipo="desejavel">Conhecimentos de CSS (curso web400 ou equivalente)  </pre-requisito>
+  <descricao>Este curso explora os recursos de transformação de documentos XML em páginas que  podem ser visualizadas ou impressas. Apresenta os principais elementos e propriedades  da linguagem <i>Extensible Stylesheet Language for Formatting Objects</i>, ou XSL-FO, que permitem  controlar com precisão cores, fontes, margens, endentações, paginação, entre outros  recursos tipográficos. XSL-FO tem sido usada principalmente para a geração de  documentos PDF a partir de XML. No curso, serão exploradas ferramentas que fazem  transformações de XSL-FO para PDF e RTF (Word) e conversores que geram XSL-FO a partir  de documentos HTML e XML.</descricao>
+  <objetivo>Ao final deste curso o aluno deverá ter conhecimentos de XSL-FO suficientes para saber  gerar um documento PDF a partir de uma fonte XML e uma folha de estilos XSLT e  embutir essa funcionalidade dentro de aplicações Web  para a geração de PDF "on-the-fly".</objetivo>
+  <observacao>O conhecimento de Java (linguagem usada em alguns exemplos) não é essencial  para alcançar os objetivos propostos pelo curso. Toda a tecnologia apresentada  neste curso é aberta (<link tipo="http" target="web">www.w3.org</link>) e pode ser usada em outras plataformas.</observacao>
+  <topicos>
+  <item>Como criar documentos XSL-FO</item>
+  <item>Visualização em PDF</item>
+  <item>Regiões de um documento</item>
+  <item>Elementos para layout da página</item>
+  <item>Elementos de conteúdo</item>
+  <item>Propriedades XSL-FO e CSS</item>
+  <item>Blocos e elementos de linha</item>
+  <item>Imagens e elementos embutidos</item>
+  <item>Vínculos e âncoras</item>
+  <item>Listas e Tabelas</item>
+  <item>Margens, bordas, linhas e posicionamento</item>
+  <item>Como embutir a transformação em outros programas e aplicações Web</item>
+  <item>Transformação em outros formatos</item>
+  </topicos>
+</curso>

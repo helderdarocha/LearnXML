@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<cursos>
+ <empresa>
+ 	<nome>Argo Navis</nome>
+ 	<website>www.argonavis.com.br</website>
+ 	<contato email="hlsr@uol.com.br" telefone="(11) 9291 0567">Helder da Rocha</contato>
+ </empresa>
+ <observacoes>
+ 	<obs>A carga-horária dos cursos foi calculada prevendo um equilíbrio entre atividades
+	práticas e teóricas, e levando em conta a possível necessidade de revisar assuntos
+	citados nos pré-requisitos como não essenciais. Para turmas experientes, a carga-horária
+	pode ser reduzida diminuindo-se o detalhamento dado a alguns tópicos ou reduzindo o
+	tempo de atividades práticas. Pode ser reduzida também fundindo dois ou mais cursos
+	(por exemplo, os cursos xml300 e xml400, podem ser ministrados em 40 horas).</obs>
+	<obs>Os tópicos representam assuntos em destaque. Não representam necessariamente
+	capítulos ou módulos. A seqüência dos assuntos poderá ser alterada se isto
+	tornar a exposição mais didática.</obs>
+	<obs>Cursos podem ser desmembrados em seus tópicos para formar novos roteiros que estejam
+	de acordo com as necessidades de sua empresa. </obs>
+	<obs>Entre em contato para maiores informações e mais detalhes sobre os cursos.</obs>
+ </observacoes>
+ <arquivos>
+	<doc>xml100.xml</doc>
+	<doc>xml300.xml</doc>
+	<doc>xml400.xml</doc>
+    <doc>jav100.xml</doc>
+    <doc>jav550.xml</doc>
+    <doc>web100.xml</doc>
+    <doc>web400.xml</doc>
+    <doc>web600.xml</doc>
+    <doc>xml500.xml</doc>
+    <doc>jav500.xml</doc>
+    <doc>jav530.xml</doc>
+    <doc>per100.xml</doc>
+    <doc>web150.xml</doc>
+</arquivos>
+</cursos>

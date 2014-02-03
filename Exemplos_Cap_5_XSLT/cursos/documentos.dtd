@@ -1,0 +1,25 @@
+<!ELEMENT cursos ( empresa, observacoes, arquivos ) >
+
+<!ELEMENT empresa ( nome, website, telefone ) >
+<!ELEMENT nome ( #PCDATA ) >
+<!ELEMENT website ( #PCDATA ) >
+<!ELEMENT contato ( #PCDATA ) >
+<!ATTLIST contato telefone CDATA #REQUIRED >
+<!ATTLIST contato email CDATA #REQUIRED >
+
+<!ELEMENT arquivos ( doc+ ) >
+<!ELEMENT doc ( #PCDATA ) >
+
+<!ELEMENT observacoes ( obs+ ) >
+<!ELEMENT obs ( #PCDATA | link )* >
+
+<!ELEMENT link ( #PCDATA ) >
+<!ATTLIST link tipo  (email | http | id) #REQUIRED >
+
+
+
+
+
+
+
+

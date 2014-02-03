@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="______"
+    xmlns:pes="______">
+
+    <element name="pessoas">
+        <complexType>
+            <sequence>
+                <element ref="pes:pessoa" 
+                            maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    
+    <element name="pessoa">
+        <complexType>
+            <sequence>
+                <element ref="pes:nome" />
+            </sequence>
+        </complexType>
+    </element>
+    
+    <element name="nome" type="string" />
+
+</schema>

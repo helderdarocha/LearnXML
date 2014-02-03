@@ -1,0 +1,22 @@
+
+<!ENTITY % satelite SYSTEM "satelite.dtd">
+%satelite;
+<!ENTITY % cometas SYSTEM "cometas.dtd">
+%cometas;
+<!ENTITY cometas SYSTEM "cometas.xml">
+<!ELEMENT sistemaEstelar (centro, orbita*, cometa*)>
+<!ELEMENT centro (estrela, imagem?)>
+<!ELEMENT orbita (estrela|planeta|asteroide*)>
+<!ELEMENT estrela (satelite*)>
+<!ELEMENT planeta (imagem?,satelite*)>
+<!ELEMENT imagem EMPTY>
+<!ATTLIST imagem href CDATA #IMPLIED>
+<!ATTLIST orbita raioMedUA NMTOKEN #IMPLIED>
+<!ATTLIST estrela id ID #REQUIRED
+                  nome CDATA #REQUIRED
+                  cor  NMTOKEN #IMPLIED
+                  diametrokm NMTOKEN #IMPLIED>
+<!ATTLIST planeta id ID #REQUIRED
+                  nome CDATA #REQUIRED
+                  diametrokm NMTOKEN #IMPLIED
+                  anoDescobrimento NMTOKEN #IMPLIED>

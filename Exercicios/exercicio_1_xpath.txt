@@ -1,0 +1,33 @@
+Exercícios XPath
+
+1. Nome de todos os satélites cujo diametrokm é maior que a Lua.
+//satelite[@diametrokm > //satelite[@nome='Lua']/@diametrokm]/@nome
+Resposta: Io, Ganimede, Callisto e Titã.
+
+2. Id de todos os descendentes de Netuno
+//*[@nome='Netuno']//@id
+
+3. Nome de satelites de Jupiter com orbita par (posicao par na ordem).
+//*[@nome='Júpiter']/satelite[position() mod 2 = 0]/@nome
+
+4. Nome de todos os planetas cujo diametrokm é menor que o diametrokm da Lua.
+//planeta[@diametrokm < //*[@nome='Lua']/@diametrokm]/@nome
+
+5. Nome de todos os satelites, planetas ou asteroides cujo nome começa com "D"
+//*[(name() = 'satelite' or name() = 'asteroide') and substring(@nome,1,1) = 'D']/@nome
+
+6. Nome do maior satelite (em diametrokm)
+//satelite[not(@diametrokm < //satelite/@diametrokm)]/@nome
+
+7. Planetas cujo diametro é menor que quatro vezes soma dos diametros de
+   todos os seus satelites.
+//planeta[sum(satelite/@diametrokm) * 4  > @diametrokm]
+
+8. Nome de todos os planetas ou asteroides ou satelites maiores que Plutão 
+   e menores que a Terra em diametrokm.
+//*[(name() = 'satelite' or name() = 'asteroide' or name() = 'planeta') 
+   and @diametrokm >= //planeta[@nome='Plutão']/@diametrokm
+   and @diametrokm <= //planeta[@nome='Terra']/@diametrokm]/@nome
+
+9. Imprimir todos os resultados em uma página HTML usando XSLT.
+

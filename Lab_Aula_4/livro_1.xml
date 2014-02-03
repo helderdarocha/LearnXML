@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE livro SYSTEM "livro.dtd">
+<livro numero="1" data="2010-12-08">
+    <titulo>A Origem das Especies</titulo>
+    <idioma codigo="pt" />
+    <autor>Charles Darwin</autor>
+    <assunto dewey="540">Biologia</assunto>
+    <assunto dewey="542">Zoologia</assunto>
+    <descricao>Este livro narra as descobertas do autor 
+        e teorias sobre a origem e das especies
+        com base em sua viagem pela<termo>America do Sul</termo>,
+        principalmente nas <termo>Ilhas Galapagos</termo>.
+        E a obra mais importante relacionada a <termo>teoria da
+            evolucao</termo> das especies.
+    </descricao>
+</livro>

@@ -1,0 +1,107 @@
+Questões sobre XML
+
+1: Cinco documentos XML contém apenas os elementos listados abaixo em cada alternativa. Um deles não está bem formado. Qual?
+a) <Produto Cod.Item="LH323-2"><Descrição>Impressora</Descrição><Marca>Epson</Marca></Produto> 
+b) <script language="JavaScript"><![CDATA[ x = parseInt(prompt("Número"); if (x < 10) { alert("Valor inválido!"); } ]]></script>
+c) <?abc <<< ?><html><style>#n {rgb(0,0,0)}</style><body><hr></hr><h1 id="n">Programa</h1><hr></hr></body></html>
+d) <form><input type="text" name="uid"></input><button onclick="if(this.form.uid.value.length <= 0){this.form.submit();}"/></form>
+e) <html:html xmlns:html="1" xmlns:Dados="2" xmlns:xsl="3"><Dados:livro><xsl:texto></xsl:texto></Dados:livro></html:html>
+
+2: Qual a alternativa incorreta?
+a) Um DTD pode ser usado para especificar uma linguagem definindo seus elementos e atributos
+b) Um documento pode conter mais de uma linguagem
+c) Um documento que contém elementos de múltiplas linguagens pode associar DTDs diferentes para cada namespace
+d) Um documento que contém mais de uma linguagem pode evitar conflitos usando namespaces
+e) O prefixo usado para o namespace da linguagem XSLT não precisa ser "xsl". Pode ser, por exemplo, "fo".
+
+3: Qual o número mínimo de elementos que precisa ter um documento XML bem formado?
+a) Zero
+b) Um
+c) Dois
+d) Três
+e) Quatro
+
+4: Como se declara a entidade de parâmetro %arquivo; que contém o texto "arquivo.dtd"?
+a) <!ENTITY % arquivo "arquivo.dtd">
+b) <!ENTITY %arquivo SYSTEM "arquivo.dtd">
+c) <!ENTITY arquivo "arquivo.dtd">
+d) <!ENTITY arquivo SYSTEM "arquivo.dtd">
+e) <!ENTITY % arquivo SYSTEM "arquivo.dtd">
+
+5: O que faz a declaração <!ATTLIST atributo tipo ID #IMPLIED ID NMTOKEN #REQUIRED>?
+a) Declara um atributo chamado atributo, do tipo ID.
+b) Declara um atributo chamado ID que só pode conter número.
+c) Declara um atributo obrigatório de um elemento chamado atributo
+d) Declara um atributo opcional, chamado tipo, que se for usado, deve conter um número distinto.
+e) Declara dois atributos do tipo ID.
+
+6: Qual dos trechos de XML abaixo viola a regra <!ELEMENT item (a+, (b|c|d)*, e, f, g?)>
+a) <item><a/><d/><d/><e/><f/><g/></item>
+b) <item><a/><a/><e/><f/></item>
+c) <item><a><b/></a><c><d/></c><c/><e/><f/><g/></item>
+d) <item><a><g/></a><a/><e/><f/></item>
+e) <item><a/><b/><c/><e/><f/><g/></item>
+
+7: Qual das declarações abaixo está com sintaxe incorreta para um DTD?
+a) <!ELEMENT turno (manha | tarde | noite) >
+b) <!ATTLIST %dados;>
+c) <!ENTITY % dados "item codigo (%um; | %dois; | %tres;) '%tres;'">
+d) <!ELEMENT p (em | strong | code | dfn | cite | sub | sup | a | #PCDATA)*>
+e) <!ATTLIST NMTOKEN ID NMTOKEN "ID"> 
+
+Para as três próximas questões, considere o seguinte documento XML:
+
+    <orbita>
+        <estrela id="e5" nome="UtopiaDois" cor="vermelha">
+            <satelite id="e5.1" nome="Unicórnio" >
+                <satelite id="e5.1.1" nome="Chifre" />
+                <satelite id="e5.1.2" nome="Asa Esquerda" />
+                <satelite id="e5.1.2" nome="Asa Direita" />
+            </satelite>
+            <satélite id="e5.3" nome="Papai Noel" />
+        </estrela>
+    </orbita>
+
+8: Uma folha de estilos de transformação para HTML possui apenas o seguinte template:
+
+    <xsl:template match="satelite">
+        <p><xsl:value-of select="@nome" /></p>
+    </xsl:template>
+    
+   Quantos pares <p>...</p> serão impressos no documento resultado?
+   
+a) Nenhum
+b) Dois
+c) Tres
+d) Quatro
+e) Cinco
+
+9: Uma folha de estilos de transformação para HTML possui apenas o seguinte template:
+
+    <xsl:template match="estrela">
+        <p><xsl:value-of select="satelite/@nome" /></p>
+    </xsl:template>
+    
+   Quantos pares <p>...</p> serão impressos no documento resultado?
+   
+a) Nenhum
+b) Dois
+c) Tres
+d) Quatro
+e) Cinco
+
+10: Uma folha de estilos de transformação para HTML possui apenas o seguinte template:
+
+    <xsl:template match="orbita">
+        <xsl:for-each select="satelite">
+           <p><xsl:value-of select="@nome" /></p>
+        </xsl:for-each>
+    </xsl:template>
+    
+   Quantos pares <p>...</p> serão impressos no documento resultado?
+   
+a) Nenhum
+b) Dois
+c) Tres
+d) Quatro
+e) Cinco

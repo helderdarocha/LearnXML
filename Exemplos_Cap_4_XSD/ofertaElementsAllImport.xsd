@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           targetNamespace="http://www.empresa.com/pontodevenda"
+           xmlns="http://www.empresa.com/pontodevenda"
+           xmlns:pdvt="http://www.empresa.com/pontodevenda/tipos">
+  
+  <xs:import namespace="http://www.empresa.com/pontodevenda/tipos" 
+             schemaLocation="ofertaTypesAll.xsd"/>
+
+  <xs:element name="oferta" type="pdvt:ofertaType" />
+  <xs:element name="codigo" type="pdvt:codigoType"/>
+  <xs:element name="preco" type="pdvt:precoType"/>
+  <xs:element name="itens" type="pdvt:itemType"/>
+
+</xs:schema>

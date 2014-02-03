@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.cosmos.org.br/satelites" targetNamespace="http://www.cosmos.org.br/satelites" elementFormDefault="qualified">
+	<xs:element name="imagem" type="imagemType" />
+	<xs:simpleType name="astroID">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="\c\d.*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="imagemType">
+		<xs:attribute name="href" type="xs:anyURI"/>
+	</xs:complexType>
+	<xs:complexType name="astroType">
+		<xs:sequence>
+			<xs:element ref="imagem" minOccurs="0"/>
+			<xs:element name="satelite" type="sateliteType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="astroID" use="required"/>
+		<xs:attribute name="nome" type="xs:string" use="required"/>
+		<xs:attribute name="diametrokm" type="xs:decimal"/>
+	</xs:complexType>
+	<xs:complexType name="sateliteType">
+		<xs:complexContent>
+			<xs:extension base="astroType">
+				<xs:attribute name="raioMedOrbitakm" type="xs:decimal"/>
+				<xs:attribute name="anoDescobrimento" type="xs:int"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+</xs:schema>

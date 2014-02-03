@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="curso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titulo"/>
+        <xs:element ref="carga-horaria"/>
+        <xs:element ref="pre-requisito"/>
+        <xs:element ref="descricao"/>
+        <xs:element ref="objetivo"/>
+        <xs:element ref="topicos"/>
+      </xs:sequence>
+      <xs:attribute name="assunto" use="required" type="xs:integer"/>
+      <xs:attribute name="fragmento" use="required" type="xs:integer"/>
+      <xs:attribute name="grupo" use="required" type="xs:NCName"/>
+      <xs:attribute name="subgrupo" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="carga-horaria" type="xs:integer"/>
+  <xs:element name="pre-requisito">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:restriction base="xs:string"></xs:restriction>
+      </xs:simpleContent>
+      <xs:attribute name="tipo" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="descricao" type="xs:string"/>
+  <xs:element name="objetivo" type="xs:string"/>
+  <xs:element name="topicos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!--DOCTYPE biblioteca SYSTEM "biblioteca.dtd"-->
+
+<biblioteca>
+    <autores>
+        <autor codigo="aut01">
+            <nome>Julius Ecco Ruptus</nome>
+        </autor>
+        <autor codigo="aut02">
+            <nome>Claudius Chattus</nome>
+        </autor>
+        <autor codigo="aut03">
+            <nome>Lorenzo Corleone</nome>
+        </autor>
+        <autor codigo="aut04">
+            <nome>Zé da Silva</nome>
+        </autor>
+    </autores>
+    
+    <livros>
+        <livro codigo="liv01" autores="aut02 aut04" editora="ed01">
+            <titulo>Como Plantar Batatas em Montanhas</titulo>
+        </livro>
+        <livro codigo="liv02" autores="aut01" editora="ed01">
+            <titulo>Como Ganhar Dinheiro</titulo>
+        </livro>
+        <livro codigo="liv03" autores="aut02 aut03 aut04" editora="ed02">
+            <titulo>Como Colher Batatas Plantadas nas Montanhas</titulo>
+        </livro>
+    </livros>
+    
+    <editoras>
+        <editora nome="Editora Livros" codigo="ed01" />
+        <editora nome="Editora Biblos" codigo="ed02" />
+    </editoras>
+
+</biblioteca>

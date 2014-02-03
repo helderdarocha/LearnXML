@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<arquivos>
+<news show="false">
+  Noticia 1
+</news>
+<news show="true">
+  Noticia 2
+</news>
+<news show="false">
+  Noticia 3
+</news>
+<news show="true">
+  Noticia 4
+</news>
+</arquivos>

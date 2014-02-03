@@ -1,0 +1,67 @@
+<servico-de-consultoria>
+    <contratante>Acme S.A</contratante>
+    <referente nota="20" data="9/9/2002" />
+    <descricao>Consultoria em Java / EJB / XML</descricao>
+    <periodo ano="2002" mes="9">
+        <servicos>
+            <periodo dia="4">
+                <descricao></descricao>
+                <inicio hora="9" minuto="15" />
+                <fim hora="21" minuto="15" />
+            </periodo>
+            <periodo dia="5">
+                <descricao></descricao>
+                <inicio hora="10" minuto="45" />
+                <fim hora="20" minuto="45" />
+            </periodo>
+            <periodo dia="6">
+                <descricao></descricao>
+                <inicio hora="8" minuto="30" />
+                <fim hora="20" minuto="30" />
+            </periodo>
+            <periodo dia="7">
+                <descricao></descricao>
+                <inicio hora="10" minuto="0" />
+                <fim hora="18" minuto="30" />
+            </periodo>
+            <periodo dia="8">
+                <descricao></descricao>
+                <inicio hora="11" minuto="15" />
+                <fim hora="19" minuto="15" />
+            </periodo>
+            <periodo dia="9">
+                <descricao></descricao>
+                <inicio hora="8" minuto="30" />
+                <fim hora="15" minuto="0" />
+            </periodo>
+        </servicos>
+        <despesas>
+            <periodo dia="4">
+                <despesa tipo="taxi" numero="LYR1531">31.00</despesa>
+                <despesa tipo="alimentacao" numero="8465">8.00</despesa>
+            </periodo>
+            <periodo dia="5">
+                <despesa tipo="taxi" numero="CXA7981">38.00</despesa>
+                <despesa tipo="taxi">12.00</despesa>
+                <despesa tipo="alimentacao" numero="7634">9.22</despesa>
+            </periodo>
+            <periodo dia="6">
+                <despesa tipo="taxi" numero="CZP7469">14.00</despesa>
+                <despesa tipo="alimentacao" numero="8516">8.00</despesa>
+            </periodo>
+            <periodo dia="7">
+                <despesa tipo="taxi" numero="CPN2097">46.50</despesa>
+                <despesa tipo="taxi" numero="CXA1944">13.00</despesa>
+            </periodo>
+            <periodo dia="8">
+                <despesa tipo="taxi" numero="CJB8272">40.00</despesa>
+                <despesa tipo="taxi" numero="CYR5959">12.00</despesa>
+                <despesa tipo="alimentacao" numero="8945">8.00</despesa>
+            </periodo>
+            <periodo dia="9">
+                <despesa tipo="taxi" numero="CRY9091">32.45</despesa>
+                <despesa tipo="alimentacao" numero="9333">10.00</despesa>
+            </periodo>
+        </despesas>
+    </periodo>
+</servico-de-consultoria>

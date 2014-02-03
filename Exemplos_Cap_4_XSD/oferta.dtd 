@@ -1,0 +1,16 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT oferta (codigo,preco,itens)>
+<!ATTLIST oferta
+  validade NMTOKEN #REQUIRED>
+
+<!ELEMENT codigo EMPTY>
+<!ATTLIST codigo
+  numero CDATA #REQUIRED
+  tipo (T | P | U) #REQUIRED>
+
+<!ELEMENT preco (#PCDATA)>
+<!ATTLIST preco>
+
+<!ELEMENT itens (#PCDATA)>
+<!ATTLIST itens>

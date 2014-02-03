@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="sistemaEstelar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="centro" />
+        <xs:element ref="orbita" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="cometa" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="centro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="estrela" />
+        <xs:element ref="imagem" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="orbita">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="estrela" />
+        <xs:element ref="planeta" />
+        <xs:element ref="asteroide" minOccurs="0" maxOccurs="unbounded" />
+      </xs:choice>
+      <xs:attribute name="raioMedUA" type="xs:NMTOKEN" />
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="estrela">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="satelite" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required" />
+      <xs:attribute name="nome" type="xs:string" use="required" />
+      <xs:attribute name="cor" type="xs:NMTOKEN" />
+      <xs:attribute name="diametrokm" type="xs:NMTOKEN" />
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="satelite">
+  
+  </xs:complexType>
+  
+  <xs:element name="planeta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="imagem" minOccurs="0" />
+        <xs:element ref="satelite" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:ID" use="required" />
+      <xs:attribute name="nome" type="xs:string" use="required" />
+      <xs:attribute name="diametrokm" type="xs:NMTOKEN" />
+      <xs:attribute name="anoDescobrimento" type="xs:NMTOKEN" />
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Elemento vazio -->
+  <xs:element name="imagem">
+    <xs:complexType>
+      <xs:attribute name="href" type="xs:anyURI" />
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>
+
+

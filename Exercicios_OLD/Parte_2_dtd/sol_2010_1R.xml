@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="sol_to_svg_2010.xsl"?>
+<!DOCTYPE sistemaEstelar SYSTEM "sol_2010_1R.dtd" >
+<sistemaEstelar versao="2.0" dataAtualizacao="2010-12-18">
+    <centro>
+        <estrela nome="Sol" diametrokm="1390000" cor="amarela" massaKg="1.98892e30">
+            <imagem href="sun.jpg" />
+        </estrela>
+    </centro>
+</sistemaEstelar>

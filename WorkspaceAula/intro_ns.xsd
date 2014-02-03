@@ -1,0 +1,14 @@
+<?xml version = "1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="msg-mensagens_2002"
+            elementFormDefault="qualified">
+            
+    <xsd:element name="myMessage">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="message" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+</xsd:schema>

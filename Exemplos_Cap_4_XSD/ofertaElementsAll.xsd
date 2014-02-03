@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           targetNamespace="http://www.empresa.com/pontodevenda"
+           xmlns="http://www.empresa.com/pontodevenda">
+  
+  <xs:include schemaLocation="ofertaTypesComplex.xsd"/>
+  <xs:include schemaLocation="ofertaTypesSimple.xsd"/>
+
+  <xs:element name="oferta" type="ofertaType" />
+  <xs:element name="codigo" type="codigoType"/>
+  <xs:element name="preco" type="precoType"/>
+  <xs:element name="itens"/>
+
+</xs:schema>

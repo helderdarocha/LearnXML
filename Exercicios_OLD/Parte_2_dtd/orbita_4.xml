@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orbita SYSTEM "orbita.dtd" >
+<orbita raioMedUA="1.52">
+    <planeta id="p4" nome="Marte" diametrokm="6794" perielioUA="1.381" afelioUA="1.666" periodoOrbitalD="686.97" periodoRotacaoSideralH="24.623" inclinacaoAxial="25.19" massaKg="6.417e23">
+        <imagem href="mars.jpg" />
+        <satelite id="p4.1"  nome="Phobos"  diametrokm="11.2"  raioMedOrbitakm="9380"  anoDescobrimento="1877" descobertoPor="Asaph Hall" />   
+        <satelite id="p4.2"  nome="Deimos"  diametrokm="6.4"   raioMedOrbitakm="23460" anoDescobrimento="1877" descobertoPor="Asaph Hall" />    
+    </planeta>
+</orbita>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE livro SYSTEM "livro.dtd">
+<livro numero="4" data="2010-09-20">
+    <titulo>Contos da Era do Jazz</titulo>
+    <idioma codigo="pt" />
+    <autor>F. Scott Fitzgerald</autor>
+    <assunto dewey="813">Ficcao dos Estados Unidos, Seculo XX</assunto>
+    <descricao>Diversos contos do inicio do seculo XX (<termo>Era do Jazz</termo>). 
+        <sinopse>Coloque aqui uma sinopse deste livro.</sinopse>
+    </descricao>
+</livro>

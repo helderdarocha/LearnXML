@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE document SYSTEM "cfp.dtd">
+<document>
+    <description>
+    This document describes the call for papers for eXtreme Programming Brasil. This is a draft version.
+    </description>
+    <head>
+        <title-line>CHAMADA DE TRABALHOS</title-line>
+        <title-line>eXtreme Programming Brasil</title-line>
+        <subtitle-line/>
+        <subtitle-line>SÃO PAULO, * de * de 2002</subtitle-line>
+    </head>
+    
+    <section name="intro">
+    <p>O congresso <b>eXtreme Programming Brasil</b> tem como objetivo
+    reunir a comunidade brasileira de usuários e interessados em
+    metodologias ágeis de desenvolvimento de software para relatar 
+    suas experiências, propor soluções, apresentar aplicações práticas e
+    discutir as implicações do uso da metodologia <a href="http://xp">eXtreme Programming</a> e
+    outras metodologias ágeis no processo de desenvolvimento de software.</p>
+    
+    <p>Convidamos autores, profissionais, academicos e especialistas que
+    utilizam a metodologia XP no seu dia-a-dia, em suas pesquisas e em
+    ambientes de produção para contribuir com <b>palestras</b>, <b>artigos</b> e <b>tutoriais</b> voltados
+    para o público técnico (desenvolvedores) e gerencial (gerentes e
+    clientes de software). </p>
+    
+    <p>Os trabalhos submetidos devem estar relacionados à metologia 
+    XP ou outras metodologias ágeis. Os assuntos de interesse incluem
+    mas não se limitam a:</p>
+    
+    <list>
+        <topic>Estudos de caso e relatos de experiências com XP e metodologias ágeis</topic>
+        <topic>Discussão comparativa de outros processos e metodologias em relação ao XP</topic>
+        <topic>Dificuldades na implantação e gerenciamento de XP</topic>
+        <topic>Técnicas e ferramentas para implantar práticas do XP</topic>
+        <topic>Introdução a práticas específicas do XP (as 12 práticas)</topic>
+        <topic>Pair programming: experiências e técnicas</topic>
+        <topic>Testes de unidade e de aceitação: soluções práticas, experiencias</topic>
+        <topic>Refactoring (refinamento constante e redesign durante o processo de desenvolvimento)</topic>
+        <topic>Integração contínua</topic>
+        <topic>Certificação de processos XP (CMM, ISO 9001, etc.)</topic>
+        <topic>Planejamento e estratégias de viabilização de projetos XP</topic>
+        <topic>Experiencias e/ou resultados da introdução de XP e outras metodologias em cursos universitários.</topic>
+    </list>
+    
+    <p>Além dos palestrantes selecionados, o evento também contará com palestrantes internacionais convidados.
+    Até o momento está confirmada a presença de <a href="http://kent">Kent Beck</a> - criador do eXtreme Programming e <a href="http://scott">Scott Ambler</a>.
+    </p>
+    
+    </section>
+    
+    <section name="formas" title="Formas de apresentação">
+    <p>Os trabalhos submetidos podem ser apresentados em dois formatos: <b>palestra</b> ou <b>tutorial</b>.
+    As palestras têm duração de uma hora. Os tutoriais, com duração de 3 ou de 6 horas, exploram
+    temas que requerem um tempo maior para exposição. <comment>(NOTA - HELDER: O ideal é que palestras
+    fossem apresentadas em auditórios (+ de 50 pessoas) e tutoriais em salas para grupos menores
+    - até 50 pessoas - o que permite uma interação maior)</comment>.</p>
+    </section>
+    
+    <section name="revista" title="Revista eXtreme Programming Brasil">
+    <p>O <b>eXtreme Programming Brasil</b> também aceitará a submissão de <b>artigos</b> sobre os temas propostos.
+    Os artigos devem ter entre 2 e 6 páginas (incluíndo as ilustrações) em formato A4 e fonte
+    Times Roman 10 pontos. O formato para sumbissão de artigos será divulgado em breve. O evento
+    produzirá uma revista contendo entre 10 e 15 artigos selecionados.</p>
+    <p>Os artigos são independentes das palestras e tutoriais mas nada impede que um palestrante
+    submeta um artigo e uma palestra ou tutorial. Isto inclusive é estimulado. Palestras e tutoriais
+    técnicos submetidos com artigos terão maiores chances de aprovação.</p>
+    <p>A revista conterá, além dos artigos selecionados, artigos de autores convidados e
+    espaços destinados à publicidade.</p>
+    </section>
+    
+    <section name="beneficios" title="Benefícios aos palestrantes">
+    <p>Palestrantes do <b>eXtreme Programming Brasil</b> terão acesso livre em qualquer palestra do
+    evento e poderão assistir quaisquer tutoriais que não estiverem com sua capacidade
+    esgotada.</p>
+    </section>
+    
+    <section name="datas" title="Datas importantes">
+    <list>
+        <deadline><description>Data limite para envio de propostas</description>
+               <date>30 de setembro de 2002</date></deadline>
+        <deadline><description>Pré-seleção</description>
+               <date>10 de outubro</date></deadline>
+        <deadline><description>Votação pública <comment>(NOTA: para seleção de palestras ou temas de interesse?)</comment></description>
+               <date>10 a 20 de outubro</date></deadline>
+        <deadline><description>Data limite para submissão de artigos</description>
+               <date>20 de outubro</date></deadline>
+        <deadline><description>Notificação de aceitação</description>
+               <date>30 de outubro</date></deadline>
+        <deadline><description>Data limite para envio do material para a coordenação técnica</description>
+               <date>20 de outubro</date></deadline>
+        <deadline><description>Realização do evento</description>
+               <date>4 de dezembro</date></deadline>
+    </list>
+    </section>
+    
+    <section name="procedimento" title="Procedimento para submissão de trabalhos">
+    <p>Em breve será disponibilizado um formulário para facilitar a submissão de trabalhos. Caso você já tenha um trabalho a submeter, 
+    voce já pode enviar a proposta. Ela deve estar em formato texto (anexo ou diretamente no corpo do e-mail) e conter Título, 
+    resumo de 100 palavras (máximo), assuntos que serão abordados (lista de tópicos - até 100 palavras), público-alvo (gerencial 
+    ou técnico), formato (tutorial ou palestra e/ou artigo), seu nome, empresa/instituição e curriculum vitae resumido 
+    (até 300 palavras) para <a href="mailto:email">email@dominio.com.br</a>. </p>
+    </section>
+</document>

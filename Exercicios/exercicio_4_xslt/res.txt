@@ -1,0 +1,8 @@
+
+    <dd>this is a silver watch</dd>
+    
+<dd>this is a ring</dd>
+    
+<dd>this is a bracelet</dd>
+    
+<dd>this is a platinum time piece</dd>

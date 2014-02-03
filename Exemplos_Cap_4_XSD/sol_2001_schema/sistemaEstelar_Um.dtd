@@ -1,0 +1,7 @@
+<!ELEMENT sistemaEstelar (centro, orbita*)>
+<!ELEMENT centro (estrela)>
+<!ELEMENT orbita (estrela)>
+<!ELEMENT estrela EMPTY>
+<!ATTLIST estrela id ID #REQUIRED
+                  nome NMTOKEN #REQUIRED
+                  cor  NMTOKEN #IMPLIED>

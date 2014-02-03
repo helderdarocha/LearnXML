@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <livro numero="1" data="2010-12-08">
+        <titulo>A Origem das Especies</titulo>
+        <idioma codigo="pt" />
+        <autor>Charles Darwin</autor>
+        <assunto dewey="540">Biologia</assunto>
+        <assunto dewey="542">Zoologia</assunto>
+        <descricao>Este livro narra as descobertas do autor 
+            e teorias sobre a origem e das especies
+            com base em sua viagem pela<termo>America do Sul</termo>,
+            principalmente nas <termo>Ilhas Galapagos</termo>.
+            E a obra mais importante relacionada a <termo>teoria da
+            evolucao</termo> das especies.
+        </descricao>
+    </livro>
+    <livro numero="2" data="2010-09-15">
+        <titulo>Design Patterns</titulo>
+        <idioma codigo="en" />
+        <autor>Erich Gamma</autor>
+        <autor>John Vlissides</autor>
+        <autor>Helm</autor>
+        <autor>Johnson</autor>
+        <assunto dewey="005.133">Informatica: programacao</assunto>
+        <descricao>Classico do padroes de design.</descricao>
+    </livro>
+    <livro numero="3" data="2010-09-20">
+        <titulo>The Great Gatsby</titulo>
+        <idioma codigo="en" />
+        <autor>F. Scott Fitzgerald</autor>
+        <assunto dewey="813">Ficcao dos Estados Unidos, Seculo XX</assunto>
+        <descricao>Livro mais conhecido do autor, que tem como pano
+            de fundo os <termo>Estados Unidos</termo> no inicio do seculo XX, 
+            na <termo>Era do Jazz</termo>. <sinopse>Coloque aqui uma sinopse deste livro.</sinopse>
+        </descricao>
+    </livro>
+    <livro numero="4" data="2010-09-20">
+        <titulo>Contos da Era do Jazz</titulo>
+        <idioma codigo="pt" />
+        <autor>F. Scott Fitzgerald</autor>
+        <assunto dewey="813">Ficcao dos Estados Unidos, Seculo XX</assunto>
+        <descricao>Diversos contos do inicio do seculo XX (<termo>Era do Jazz</termo>). 
+            <sinopse>Coloque aqui uma sinopse deste livro.</sinopse>
+        </descricao>
+    </livro>
+</biblioteca>

@@ -1,0 +1,6 @@
+1. Gere um arquivo PDF com os mesmos dados de sol.html
+   criando uma folha de estilos para gerar XSL-FO.
+
+a) Com os mesmos dados de sol_3.
+b) Com os mesmos dados de sol_4.
+c) Com os mesmos dados de sol_5.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           targetNamespace="http://www.empresa.com/pontodevenda"
+           xmlns="http://www.empresa.com/pontodevenda">
+  
+  <xs:include schemaLocation="ofertaElementsAll.xsd" />
+
+  <xs:complexType name="ofertaType">
+    <xs:sequence>
+      <xs:element ref="codigo"/>
+      <xs:element ref="preco"/>
+      <xs:element ref="itens"/>
+    </xs:sequence>
+    <xs:attribute name="validade" use="required" type="xs:NMTOKEN"/>
+  </xs:complexType>
+  
+  <xs:complexType name="codigoType">
+    <xs:attribute name="numero" use="required"/>
+    <xs:attribute name="tipo" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:NMTOKEN">
+          <xs:enumeration value="T" />
+          <xs:enumeration value="P" />
+          <xs:enumeration value="U" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+</xs:schema>

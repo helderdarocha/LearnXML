@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<myMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="msg-mensagens_2002 intro_ns.xsd"
+           xmlns="msg-mensagens_2002">
+   <message>Welcome to XML!</message>
+</myMessage>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="livro"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="livro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titulo"/>
+        <xs:element ref="idioma"/>
+        <xs:element maxOccurs="unbounded" ref="autor"/>
+        <xs:element maxOccurs="unbounded" ref="assunto"/>
+        <xs:element ref="descricao"/>
+      </xs:sequence>
+      <xs:attribute name="data" use="required" type="xs:date"/>
+      <xs:attribute name="numero" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="idioma">
+    <xs:complexType>
+      <xs:attribute name="codigo" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="assunto">
+    <xs:complexType mixed="true">
+      <xs:attribute name="dewey" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="descricao">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="sinopse"/>
+        <xs:element ref="termo"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sinopse" type="xs:string"/>
+  <xs:element name="termo" type="xs:string"/>
+</xs:schema>

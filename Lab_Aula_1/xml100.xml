@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<?xml-stylesheet href="curso.css" type="text/css" ?>
+
+<curso grupo="xml" assunto="1" subgrupo="0" fragmento="0">
+  <titulo>XML: uma introdução prática</titulo>
+  <carga-horaria>24</carga-horaria>
+  <pre-requisito tipo="obrigatorio">Conhecimento elementar de alguma linguagem de markup como HTML</pre-requisito>
+  <descricao>O que é e para que serve XML? Como transformar a simplicidade do XML em um recurso poderoso de compartilhamento de informações? Esses são alguns dos problemas abordados neste curso que tem como objetivo oferecer uma introdução a tecnologia XML, demonstrar seu poder através de aplicações práticas e expor, de uma maneira objetiva, como e onde utilizá-la. O curso explora a essência das principais tecnologias usadas para criar e manusear dados em XML.</descricao>
+  <objetivo>Ao concluir este curso o aluno deverá ter condições de reconhecer documentos XML e saber quais os meios que existem para manipulá-los. Conhecerá as principais tecnologias abertas baseadas em XML e terá usado ferramentas para criar, alterar, transformar, validar e visualizar textos, gráficos e outros tipos de dados estruturados com XML.</objetivo>
+  <topicos>
+      <item>Introdução a XML</item>
+      <item>Como escrever documentos XML</item>
+      <item>Estrutura de uma página XML</item>
+      <item>Como especificar uma linguagem usando DTD</item>
+      <item>XML Namespaces</item>
+      <item>Ferramentas de desenvolvimento</item>
+      <item>Como usar informações em XML</item>
+      <item>Visualização usando CSS</item>
+      <item>Manipulação usando DOM e SAX</item>
+      <item>Transformação em HTML e texto com XSLT</item>
+      <item>XML Schema versus DTD</item>
+      <item>Imagens e layout de página: XSL-FO, SVG, MathML</item>
+  </topicos>
+</curso>

@@ -1,0 +1,32 @@
+<!ELEMENT biblioteca (pessoas, livros) >
+
+<!ELEMENT pessoas (pessoa*) >
+<!ELEMENT livros  (livro*) >
+
+<!ELEMENT pessoa (nome) >
+<!ATTLIST pessoa tipo (autor | tradutor | editor) "autor"
+                 id ID #REQUIRED>
+
+<!ELEMENT nome (#PCDATA) >
+
+<!ELEMENT livro     (titulo, idioma, assunto+, descricao) >
+<!ATTLIST livro numero NMTOKEN #REQUIRED 
+                data   NMTOKEN #REQUIRED 
+                id ID #REQUIRED
+                autorRef IDREFS #REQUIRED>
+
+<!ELEMENT titulo    (#PCDATA) >
+
+<!ELEMENT idioma    (#PCDATA) >
+<!ATTLIST idioma codigo (pt | en | de | fr | es) #REQUIRED >
+
+<!ELEMENT autor     (#PCDATA) >
+
+<!ELEMENT assunto   (#PCDATA) >
+<!ATTLIST assunto dewey NMTOKEN #REQUIRED >
+
+<!ELEMENT termo     (#PCDATA) >
+
+<!ELEMENT sinopse   (#PCDATA) >
+
+<!ELEMENT descricao (#PCDATA | termo | sinopse)* >

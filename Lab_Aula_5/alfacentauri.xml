@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<sistemaEstelar>
+    <centro>
+        <estrela id="e0" nome="AlphaUm" cor="branca" />
+    </centro>
+    <orbita>
+        <estrela id="e1" nome="AlphaDois" cor="amarela" />
+    </orbita>
+    <orbita>
+        <estrela id="e2" nome="AlphaTres" cor="vermelha" />
+    </orbita>
+</sistemaEstelar>
